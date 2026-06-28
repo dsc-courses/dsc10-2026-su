@@ -318,17 +318,15 @@ After submitting, check that you got a confirmation email
 from Gradescope to verify that your submission was successful. Save this email
 until you receive your grade on the assignment, in case of any issues with your submission.
 
-You are allotted **six "slip days"** to use throughout the term. A slip day extends
-the deadline of any one homework, lab, or project by 24 hours. You cannot turn
-in any assignments more than 48 hours late, meaning that you cannot use more
-than 2 slip days on any assignment.
+You are allotted **three "slip days"** to use throughout the term. A slip day extends
+the deadline of any one homework, lab, or project by 24 hours. The course moves particularly fast during the summer term so you cannot use more than 1 slip day on any assignment.
 
 Slip days are designed to be a transparent and predictable source of leniency
 in deadlines. You can use a slip day if you are too busy to complete an
 assignment on its original due date. But slip days are also meant for things
 like the internet (or the DataHub server) going down at 11:58PM just as you go
 to submit your homework. Slip days are meant to be used in exceptional
-circumstances, so you probably should not need to use all six, but if you have
+circumstances, so you probably should not need to use all three, but if you have
 something going on in your life that is impeding your ability to do your
 classwork on time, please reach out to us **before** using up all your slip days.
 
@@ -337,7 +335,7 @@ need to ask in order to use one.** It's your responsibility to keep track of
 how many you have left. If you've run out of slip days and submit an assignment
 late, that assignment may still be graded, but you will receive a 0 on it when
 we calculate grades at the end of the term. However, in the event that you
-use all six slip days and submit another assignment late, we will allocate your slip
+use all three slip days and submit another assignment late, we will allocate your slip
 days first to the Midterm Project, then to your homeworks (in
 chronological order), and then to your labs (in chronological order). This is
 done to prevent you from receiving a 0 on, say, the Midterm Project, if you've
@@ -346,7 +344,7 @@ you'd instead receive a 0 on an earlier assignment that isn't weighted as much
 in your grade.
 
 If you submit the Midterm Project late and are working with a partner,
-both you and your partner will have to use slip days. For example, if you submit the Midterm Project two days late, both you and your partner will lose two slip days.
+both you and your partner will have to use slip days. For example, if you submit the Midterm Project late, both you and your partner will lose one slip day.
 
 ### Submission Errors
 
@@ -372,9 +370,7 @@ When submitting your work, there are two common errors to watch out for:
 To prevent these issues, it is important that you let the autograder run on Gradescope until it shows you under “Public Tests” that all public test cases passed. Do not navigate away from Gradescope until you see this confirmation that your submission was able to be successfully graded!
 
 If you happen to make one of the above mistakes and you notice it yourself
-within 48 hours of the deadline, please resubmit your assignment. Note that this will use slip days, since we always grade your latest submission. If it is more than 48 hours since the deadline,
-please reach out to a staff member and we may allow you to resubmit it late, at the cost of 2 slip days.
-It is your responsibility to ensure that all assignments are submitted correctly.
+within 24 hours of the deadline, please resubmit your assignment. Note that this will use a slip day, since we always grade your latest submission. It is your responsibility to ensure that all assignments are submitted correctly.
 
 ---
 
