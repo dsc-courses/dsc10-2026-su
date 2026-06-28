@@ -16,15 +16,16 @@ nav_order: 1
 
 <!--{: .success }
 >Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist.
+>Our first lecture will be held on **Monday, June 29th at 11:00 AM** in **HDSI 355** and over **Zoom**.
 -->
 
-<!--{: .warning }
-This site is **under construction**. Anything you read here is not finalized. This disclaimer will be removed when the site is ready for Spring 2026.-->
+{: .warning }
+This site is **under construction**. Anything you read here is not finalized. This disclaimer will be removed when the site is ready for Summer 2026.
 
-{: .success }
->The Final Exam is **this Saturday, June 6th from 3 to 6PM in Pepper Canyon 106**. See [Campuswire](https://campuswire.com/c/G65427605/feed/211) for more details!
+<!-- {: .success }
+The Final Exam is **this Saturday, June 6th from 3 to 6PM in Pepper Canyon 106**. See [Campuswire](https://campuswire.com/c/G65427605/feed/211) for more details!
 >
->Earn 1 participation point by filling out both [SETs](https://academicaffairs.ucsd.edu/Modules/Evals/) and the internal [End-of-Quarter Survey](https://forms.gle/BoRKzpGu7eduDUUT6) before Saturday, June 6th at 8AM.
+>Earn 1 participation point by filling out both [SETs](https://academicaffairs.ucsd.edu/Modules/Evals/) and the internal [End-of-Quarter Survey](https://forms.gle/BoRKzpGu7eduDUUT6) before Saturday, June 6th at 8AM. -->
 
 
 <!--{: .success }

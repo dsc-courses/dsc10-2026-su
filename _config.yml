@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DSC 10
-description: DSC 10, Spring 2026 at UC San Diego
+description: DSC 10, Summer 2026 at UC San Diego
 tagline: Principles of Data Science
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://dsc10.com' # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,18 +26,19 @@ exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'vendor']
 # Check out our [Campuswire discussion forum]({{ site.urls.campuswire }}) for
 # questions and announcements.
 urls:
-  campuswirejoin: &campuswirejoin 'https://campuswire.com/p/G65427605'
-  campuswire: &campuswire 'https://campuswire.com/c/G65427605' 
-  gradescope: &gradescope 'https://www.gradescope.com/courses/1288255'
+  campuswirejoin: &campuswirejoin 'https://campuswire.com/c/G07A2A106'
+  campuswire: &campuswire 'https://campuswire.com/p/G07A2A106' 
+  gradescope: &gradescope 'https://www.gradescope.com'
   reference: &reference 'https://dsc-courses.github.io/bpd-reference/docs/documentation/intro'
   practice: &practice 'https://practice.dsc10.com/'
   cc: &cc 'http://cc.dsc10.com/'
   podcasts: &podcasts 'https://podcast.ucsd.edu/'
-  syllabuscheck: &syllabuscheck 'https://docs.google.com/forms/d/e/1FAIpQLScOVK4Q8Xe9T0xQ4RQBB2ZAkySvnWHDCQK_k_33nhw0zDvkSQ/viewform?usp=dialog'
-  welcome: &welcome 'https://forms.gle/HE1a1V7rvu5BCuSZ7'
-  github: &github 'https://github.com/dsc-courses/dsc10-2026-sp'
+  syllabuscheck: &syllabuscheck 'https://docs.google.com/forms/d/e/1FAIpQLScWT8ciz407pE_O7msL4rJXkhkRz_VZZ1XHc7EZ4qftFP4LwQ/viewform?usp=publish-editor'
+  welcome: &welcome 'https://docs.google.com/forms/d/e/1FAIpQLScOZQZnGDHSKWe3NuN2kpO-cTA1Cmj5bKMQrnwrmLnwTVEbaw/viewform?usp=publish-editor'
+  github: &github 'https://github.com/dsc-courses/dsc10-2026-su'
   pretest: &pretest 'https://practice.dsc10.com/pretest/'
-  classroom: &classroom 'https://map.concept3d.com/?id=1005#!m/761769?share'
+  classroom: &classroom 'https://map.concept3d.com/?id=1005#!m/166133?share'
+  zoom: &zoom 'https://ucsd.zoom.us/j/97855470792'
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.12.0

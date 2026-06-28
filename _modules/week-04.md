@@ -1,60 +1,103 @@
 ---
-title: Week 4 – DataFrames, Control Flow, and Probability
+title: Week 4 – Normal Distribution and Hypothesis Testing
 weekNumber: 4
 days:
-  - date: 2026-4-20
+  - date: 2026-7-20
     events:
-      - name: LEC 10
+      - name: LEC 15
         type: lecture
-        title: Conditional Statements and Iteration
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=lectures/lec10/lec10-live.ipynb
-        html: resources/lectures/lec10/lec10.html
-        podcast:
-        readings:
-          - name: CIT 9.0-9.2
-            url: https://inferentialthinking.com/chapters/09/Randomness.html
-        keywords: in, not, and, or, if, else, elif, for-loops, np.append, accumulator pattern
-      - name: DISC 4
-        type: disc
-        title: Functions, DataFrames, and Control Flow
-        url: https://practice.dsc10.com/disc04/index.html
-      - name: HW 2
-        type: hw
-        title: DataFrames, Data Visualization, and Functions
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=homeworks/hw2/hw2.ipynb
-  - date: 2026-4-22
-    events:
-      - name: LEC 11
-        type: lecture
-        title: Probability
+        title: Confidence Intervals, Center, and Spread
         url:
-        html: resources/lectures/lec11/lec11slides.pdf
-        10am: resources/lectures/lec11/lec11slides_a.pdf
-        11am: resources/lectures/lec11/lec11slides_b.pdf
+        html:
         podcast:
         readings:
-          - name: CIT 9.5
-            url: https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html
-        keywords: event, conditional prob., multiplication and addition rules, independence
-      - name: QUIZ 2
-        type: quiz
-        title: Quiz 2 covers Lectures 7-10
-  - date: 2026-4-23
-    events:
-      - name: LAB 3
-        type: lab
-        title: DataFrames, Control Flow, and Probability
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=labs/lab3/lab3.ipynb
-  - date: 2026-4-24
-    events:
-      - name: LEC 12
+          - name: CIT 13.3-13.4
+            url: https://inferentialthinking.com/chapters/13/3/Confidence_Intervals.html
+        keywords: interpreting CIs, robust vs. sensitive, center, standard deviation
+      - name: LEC 16
         type: lecture
-        title: Simulation
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=lectures/lec12/lec12-live.ipynb
-        html: resources/lectures/lec12/lec12.html
+        title: Standardization and the Normal Distribution
+        url:
+        html:
         podcast:
         readings:
-          - name: CIT 9.3-9.4
-            url: https://inferentialthinking.com/chapters/09/3/Simulation.html
-        keywords: np.random.choice, replacement, np.count_nonzero, coin flipping, Monty Hall
+          - name: CIT 14.2-14.3
+            url: https://inferentialthinking.com/chapters/14/2/Variability.html
+        keywords: Chebyshev, standard units, normal distribution, CDF, inflection points
+      - name: LEC 17
+        type: lecture
+        title: The Central Limit Theorem
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 14.4-14.5
+            url: https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html
+        keywords: distribution of the sample mean, square root law, CLT-based CIs
+      - name: DISC 6
+        type: disc
+        title: Sampling, Bootstrapping, and Confidence Intervals
+        url:
+      - name: PROJ
+        type: proj
+        title: Midterm Project
+        url:
+  - date: 2026-7-21
+    events:
+      - name: HW 4
+        type: hw
+        title: Simulation, Sampling, & Bootstrapping
+        url:
+  - date: 2026-7-22
+    events:
+      - name: LEC 18
+        type: lecture
+        title: Choosing Sample Sizes, Statistical Models
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 14.6
+            url: https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html
+          - name: 11.1
+            url: https://inferentialthinking.com/chapters/11/1/Assessing_a_Model.html
+        keywords: standard deviation of 0s and 1s, np.random.multinomial, Robert Swain jury
+      - name: LEC 19
+        type: lecture
+        title: Hypothesis Testing
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 11.3
+            url: https://inferentialthinking.com/chapters/11/3/Decisions_and_Uncertainty.html
+        keywords: null and alternative hypotheses, test statistic, fair or unfair coin
+      - name: LEC 20
+        type: lecture
+        title: Hypothesis Testing and Total Variation Distance
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 11.2
+            url: https://inferentialthinking.com/chapters/11/2/Multiple_Categories.html
+          - name: 11.4
+            url: https://inferentialthinking.com/chapters/11/4/Error_Probabilities.html
+        keywords: fair or unfair coin, p-value, midterm exam scores, Alameda County jury, TVD
+      - name: DISC 7
+        type: disc
+        title: The Normal Distribution and the CLT
+        url:
+  - date: 2026-7-23
+    events:
+      - name: LAB 5
+        type: lab
+        title: Variability and the Normal Distribution
+        url:
+  - date: 2026-7-24
+    events:
+      - name: HW 5
+        type: hw
+        title: The Normal Distribution and the Central Limit Theorem
+        url:
 ---

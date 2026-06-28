@@ -9,15 +9,17 @@ import sys
 import numpy as np
 
 # Edit these variables before running script
-CSV_PATH = "Lecture Schedule – DSC 10, Spring 2026 - sp26.csv"  #CHANGE CSV PATH for your computer
+# CHANGE CSV PATH for your computer
+CSV_PATH = "Lecture Schedule - DSC 10, Summer 2026 - su26.csv"
 DATE_FORMAT = "DATE MONTH/DAY"
 YEAR = 2026
-START_FROM_WEEK = 1 #only future weeks!
+START_FROM_WEEK = 1  # only future weeks!
 
 
 def fill_missing_vals(df):
     df["Week"] = df["Week"].ffill().astype(int)
     df["Title"] = df["Title"].ffill().astype(str)
+    df["Date"] = df["Date"].ffill()
     df["Readings"] = df["Readings"].fillna("").astype(str)
     df["Links"] = df["Links"].fillna("").astype(str)
     df["Keywords"] = df["Keywords"].fillna("").astype(str)
@@ -29,7 +31,8 @@ def fill_missing_vals(df):
     return df
 
 
-df = pd.read_csv(CSV_PATH).rename(columns={"#": "LectureNum"}).pipe(fill_missing_vals)
+df = pd.read_csv(CSV_PATH).rename(
+    columns={"#": "LectureNum"}).pipe(fill_missing_vals)
 df
 
 
@@ -56,7 +59,7 @@ def round_format(i):
 def date_conv(date):
     if pd.isna(date):
         return None
-    
+
     if DATE_FORMAT == "DATE. MONTH. DAY":
         try:
             _, month, day = date.split(" ")
@@ -93,19 +96,26 @@ def has_content(row):
     return row.loc[["Lecture", "Homework", "Lab", "Discussion", "Quiz"]].any() != ''
 
 # for a single week
-def write_week(i, dest="../_modules", write=True):  #CHANGE dest to path where "_modules" is on your computer
+
+
+# CHANGE dest to path where "_modules" is on your computer
+def write_week(i, dest="../_modules", write=True):
     week = df.query("Week == @i")
-    week = week[week.apply(has_content, axis=1)] 
+    week = week[week.apply(has_content, axis=1)]
+
+    if week.empty:
+        return
 
     outstr = f"""---
 title: Week {i} – {week["Title"].iloc[0]}
 weekNumber: {i}
 days:"""
 
+    prev_date_formatted = None
     for day in week.itertuples(index=False):
         date = day.Date
         if pd.isna(date):
-            continue 
+            continue
         lec_num = day.LectureNum
         lecture = day.Lecture
         homework = day.Homework
@@ -116,16 +126,18 @@ days:"""
         discussion = day.Discussion
         quiz = day.Quiz
         survey = day.Survey
- 
+
         date_formatted = date_conv(date)
- 
+
         outstr = outstr.rstrip()
-        outstr += f"""
+        if date_formatted != prev_date_formatted:
+            outstr += f"""
   - date: {date_formatted}
     events:"""
- 
+            prev_date_formatted = date_formatted
+
         # --- Lectures first ---
- 
+
         if pd.notna(lec_num) and lec_num != 0:
             outstr += f"""
       - name: LEC {int(lec_num)}
@@ -135,7 +147,7 @@ days:"""
         html:
         podcast:
         readings: """
- 
+
             outstr = outstr.rstrip()
             read_str = "\n"
             if readings:
@@ -146,17 +158,17 @@ days:"""
                     read_str += f"""          - name: {readings_list[j]}\n"""
                     read_str += f"""            url: {links_list[j].strip('#')}\n"""
                 outstr += f"""{read_str}"""
- 
+
             if keywords:
                 outstr += f"""        keywords: {keywords}"""
- 
+
         elif pd.isna(lec_num) and pd.notna(lecture) and lecture:
             if lecture and "Exam" in str(lecture):
                 outstr += f"""
       - name: EXAM
         type: exam
         title: <b>{lecture}</b>"""
- 
+
             elif lecture and "Review" in str(lecture):
                 outstr += f"""
       - name: REV
@@ -165,9 +177,9 @@ days:"""
             else:
                 outstr += f"""
       - markdown_content: <b>{lecture}</b>"""
- 
+
         # --- Discussions and quizzes second ---
- 
+
         if discussion:
             disc_num, disc_name = discussion.split(". ")
             outstr = outstr.rstrip()
@@ -176,16 +188,16 @@ days:"""
         type: disc
         title: {disc_name}
         url: """
- 
+
         if quiz:
             quiz_num, quiz_description = quiz.split(". ", 1)
             outstr += f"""
       - name: QUIZ {quiz_num}
         type: quiz
         title: {quiz_description}"""
- 
+
         # --- Assignments last ---
- 
+
         if lab:
             lab_num, lab_name = lab.split(". ")
             outstr = outstr.rstrip()
@@ -194,7 +206,7 @@ days:"""
         type: lab
         title: {lab_name}
         url: """
- 
+
         if homework:
             outstr = outstr.rstrip()
             if "Project" in homework:
@@ -210,7 +222,7 @@ days:"""
         type: hw
         title: {hw_name.strip()}
         url: """
- 
+
         if survey:
             if '[' in survey and ']' in survey:
                 survey_name, survey_link = survey.split('](')
@@ -227,10 +239,10 @@ days:"""
         type: survey
         title: {survey}
         url: """
- 
+
     outstr = outstr.rstrip()
     outstr += "\n---"
- 
+
     if write:
         os.makedirs(dest, exist_ok=True)
         f = open(dest + "/week-" + round_format(i) + ".md", "w")

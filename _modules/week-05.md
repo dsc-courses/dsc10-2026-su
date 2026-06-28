@@ -1,41 +1,91 @@
 ---
-title: Week 5 – Simulations and Sampling
+title: Week 5 – Prediction and Final Exam
 weekNumber: 5
 days:
-  - date: 2026-4-27
+  - date: 2026-7-27
     events:
-      - name: LEC 13
+      - name: LEC 21
         type: lecture
-        title: Distributions and Sampling
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=lectures/lec13/lec13-live.ipynb
-        html: resources/lectures/lec13/lec13.html
+        title: TVD, Hypothesis Testing, and Permutation Testing
+        url:
+        html:
         podcast:
         readings:
-          - name: CIT 10.0-10.4
-            url: https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html
-        keywords: probability vs. empirical distribution, SRS, .sample, parameter, statistic
-      - name: DISC 5
+          - name: CIT 12.0-12.1
+            url: https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html
+        keywords: confidence intervals for hypothesis testing, body temperature, smoking/babies
+      - name: LEC 22
+        type: lecture
+        title: Permutation Testing
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 12.3
+            url: https://inferentialthinking.com/chapters/12/3/Deflategate.html
+        keywords: smoking/babies, np.random.permutation, shuffling, Deflategate
+      - name: LEC 23
+        type: lecture
+        title: Correlation
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 15.0-15.2
+            url: https://inferentialthinking.com/chapters/15/Prediction.html
+        keywords: association, correlation coefficient (r), predicting heights, regression line (su)
+      - name: DISC 8
         type: disc
-        title: Probability and Simulation
-        url: https://practice.dsc10.com/disc05/index.html
-      - name: HW 3
-        type: hw
-        title: DataFrames, Control Flow, and Probability
-        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-sp&subPath=homeworks/hw3/hw3.ipynb
-      - name: SUR
-        type: survey
-        title: Mid-Quarter Survey
-        url: https://docs.google.com/forms/d/e/1FAIpQLScO_W6JOO0gmckJ5OVEmLajSOamFbxTUzZWmbxsiaeRumATFg/viewform?usp=dialog
-  - date: 2026-4-29
+        title: Hypothesis Testing and Permutation Testing
+        url:
+  - date: 2026-7-28
     events:
+      - name: LAB 6
+        type: lab
+        title: Hypothesis Testing
+        url:
+  - date: 2026-7-29
+    events:
+      - name: LEC 24
+        type: lecture
+        title: Regression and Least Squares
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 15.2-15.4
+            url: https://inferentialthinking.com/chapters/15/2/Regression_Line.html
+        keywords: regression line in original units, outliers, errors, RMSE, best fit, least squares
+      - name: LEC 25
+        type: lecture
+        title: Residuals and Inference
+        url:
+        html:
+        podcast:
+        readings:
+          - name: CIT 15.5-16.3
+            url: https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html
+        keywords: residuals, residual plots, patterns, datasaurus dozen, prediction intervals
       - name: REV
         type: lecture
         title: Review
-        10am: resources/lectures/rev1/review_a00.pdf
-        11am: resources/lectures/rev1/review_b00.pdf     
-  - date: 2026-5-1
+      - name: DISC 9
+        type: disc
+        title: Regression
+        url:
+      - name: HW 6
+        type: hw
+        title: Hypothesis Testing and Permutation Testing
+        url:
+  - date: 2026-7-30
+    events:
+      - name: LAB 7
+        type: lab
+        title: Regression
+        url:
+  - date: 2026-7-31
     events:
       - name: EXAM
         type: exam
-        title: <b>Midterm Exam covers Lectures 1-12</b>
+        title: <b>Final Exam</b>
 ---
