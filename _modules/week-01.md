@@ -18,7 +18,7 @@ days:
         type: lecture
         title: Expressions and Data Types
         url:
-        html:
+        html: resources/lectures/lec02/lec02.html
         podcast:
         readings:
           - name: BPD 1-6
@@ -28,7 +28,7 @@ days:
         type: lecture
         title: Strings, Lists, and Arrays
         url:
-        html:
+        html: resources/lectures/lec03/lec03.html
         podcast:
         readings:
           - name: BPD 7-8
