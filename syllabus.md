@@ -67,7 +67,7 @@ There is one lecture section:
 
 Lecture is meant to introduce you to the main concepts of the course. In-person or synchronous attendance is not required, but is *encouraged* if possible, as you’ll get the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
-**Lectures will be recorded over Zoom**. Zoom recordings will be available under the podcasts button on the course website.
+**Lectures will be recorded over Zoom**. Zoom recordings will be available under the *watch* button on the course website.
 
 ### Discussion
 
@@ -668,7 +668,7 @@ Sorry, but instructors are not able to enroll students in classes. There is noth
 
 **I am on the waitlist, so how can I keep up with the course?**
 
-Waitlisted students may attend lecture and discussion, space-permitting, and can also watch podcast recordings. You can (and should) still submit assignments if you are on the waitlist. If you get off the waitlist and are able to join the class, you will not get any extensions on past-due assignments.
+Waitlisted students may attend lecture and discussion, space-permitting, and can also watch recordings. You can (and should) still submit assignments if you are on the waitlist. If you get off the waitlist and are able to join the class, you will not get any extensions on past-due assignments.
 
 Waitlisted students should have access to DataHub to work on assignments. You may need to add yourself to some course tools; see the [Getting Started](#-getting-started) section of the syllabus. If you need access to Gradescope, send a private message to the instructional staff on Campuswire with your name, PID, and email address.
 
