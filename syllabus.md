@@ -67,7 +67,7 @@ There is one lecture section:
 
 Lecture is meant to introduce you to the main concepts of the course. In-person or synchronous attendance is not required, but is *encouraged* if possible, as you’ll get the opportunity to ask questions, answer ungraded concept-check polls, and participate in discussion.
 
-**Lectures will be recorded over Zoom**. Zoom recordings will be available online on the Canvas site within a few hours.
+**Lectures will be recorded over Zoom**. Zoom recordings will be available under the podcasts button on the course website.
 
 ### Discussion
 

@@ -9,7 +9,7 @@ days:
         title: Introduction
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec01/lec01-live.ipynb
         html: resources/lectures/lec01/lec01.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/BwR0q7YLRO_s5Q7gikOw74Q9WoewLXm20VVMPyvFm2Xfz5KnsM10wvZQkBt5i8lr.UL9evoKEUshl34Gr
         readings:
           - name: CIT 1.0-1.3
             url: https://inferentialthinking.com/chapters/01/what-is-data-science.html
@@ -19,7 +19,7 @@ days:
         title: Expressions and Data Types
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec02/lec02-live.ipynb
         html: resources/lectures/lec02/lec02.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/BwR0q7YLRO_s5Q7gikOw74Q9WoewLXm20VVMPyvFm2Xfz5KnsM10wvZQkBt5i8lr.UL9evoKEUshl34Gr
         readings:
           - name: BPD 1-6
             url: https://notes.dsc10.com/01-getting_started/tools.html
@@ -29,7 +29,7 @@ days:
         title: Strings, Lists, and Arrays
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec03/lec03-live.ipynb
         html: resources/lectures/lec03/lec03.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/BwR0q7YLRO_s5Q7gikOw74Q9WoewLXm20VVMPyvFm2Xfz5KnsM10wvZQkBt5i8lr.UL9evoKEUshl34Gr
         readings:
           - name: BPD 7-8
             url: https://notes.dsc10.com/02-data_sets/arrays.html
