@@ -7522,8 +7522,10 @@ a.anchor-link {
 <span class="kn">import</span><span class="w"> </span><span class="nn">babypandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">bpd</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">plotly.io</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pio</span>
 
 <span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s2">"ggplot"</span><span class="p">)</span>
+<span class="n">pio</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">default</span> <span class="o">=</span> <span class="s2">"iframe"</span>
 </pre></div>
 </div>
 </div>
@@ -7536,7 +7538,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lecture-1-%E2%80%93-Introduction">Lecture 1 – Introduction<a class="anchor-link" href="#Lecture-1-%E2%80%93-Introduction">¶</a></h1><h2 id="DSC-10,-Spring-2026">DSC 10, Spring 2026<a class="anchor-link" href="#DSC-10,-Spring-2026">¶</a></h2>
+<h1 id="Lecture-1-%E2%80%93-Introduction">Lecture 1 – Introduction<a class="anchor-link" href="#Lecture-1-%E2%80%93-Introduction">¶</a></h1><h2 id="DSC-10,-Summer-2026">DSC 10, Summer 2026<a class="anchor-link" href="#DSC-10,-Summer-2026">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7597,20 +7599,17 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Instructor:-Dr.-Janine-Tiefenbruck-(call-me-Janine)">Instructor: Dr. Janine Tiefenbruck (call me Janine)<a class="anchor-link" href="#Instructor:-Dr.-Janine-Tiefenbruck-(call-me-Janine)">¶</a></h3><ul>
-<li>BS in Math and Computer Science at Loyola Maryland, PhD in Math (combinatorics) at UCSD 🔱.</li>
-<li>Teaching at UCSD: Math ➡️ CSE ➡️ DSC.<ul>
-<li>11 years of teaching!</li>
-<li>Mostly teach DSC 10, sometimes DSC 40A or DSC 80.</li>
-</ul>
-</li>
-<li>Outside interests: crafting, board games, hiking, baking.</li>
+<h3 id="Instructor:-Vrinda-Desai-(call-me-Vrinda)">Instructor: Vrinda Desai (call me Vrinda)<a class="anchor-link" href="#Instructor:-Vrinda-Desai-(call-me-Vrinda)">¶</a></h3><ul>
+<li>BS in Computer Science and English at UNC Chapel Hill 🐑</li>
+<li>MS in Computer Science at Michigan 〽️</li>
+<li>Previous Teaching: lots of intro Python, C++, etc.</li>
+<li>Outside interests: audiobooks, walking and hiking, cats.</li>
 </ul>
 <center>
 <table><tr>
-<td> <img alt="No description has been provided for this image" src="images/blueberries.jpg" width="400"/> </td>
-<td> <img alt="No description has been provided for this image" src="images/baking.jpeg" width="400"/> </td>
-<td> <img alt="No description has been provided for this image" src="images/desserts.jpg" width="500"/> </td>
+<td> <img alt="No description has been provided for this image" src="images/rocks.jpeg" width="400"/> </td>
+<td> <img alt="No description has been provided for this image" src="images/michigan.jpeg" width="400"/> </td>
+<td> <img alt="No description has been provided for this image" src="images/daisy.jpeg" width="400"/> </td>
 </tr></table>
 </center>
 </div>
@@ -7623,10 +7622,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Course-staff">Course staff<a class="anchor-link" href="#Course-staff">¶</a></h3><p>In addition, we have many other course staff members who are here to support you in discussion, office hours, and online.</p>
+<h3 id="Course-staff">Course staff<a class="anchor-link" href="#Course-staff">¶</a></h3><p>Additionally, we have some awesome course staff members who are here to support you in discussion, office hours, and online.</p>
 <ul>
-<li><strong>Graduate TA</strong>: Zeyu Bian.</li>
-<li><strong>Undergraduate tutors</strong>: Bianca Grunbaum, Kate Feng, Raymond Williams, Sofia Tkachenko, Austin Flippo, Pranav Rajaram.</li>
+<li><strong>Tutors</strong>: Ray Williams, Noah Golder, Marta Krylova, Sam Griffiths, Lauren Lee.</li>
 <li><strong>Stuffed panda mascot</strong>: Baby Panda. 🐼</li>
 </ul>
 <p>Learn more about them at <a href="https://dsc10.com/staff">dsc10.com/staff</a>, and come say hi in office hours!</p>
@@ -7674,7 +7672,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>First 4 weeks: use Python to <strong>explore</strong> data.<ul>
+<li>First 2 week: use Python to <strong>explore</strong> data.<ul>
 <li>Lots of visualization 📈📊 and "data manipulation", using industry-standard tools.</li>
 </ul>
 </li>
@@ -7690,7 +7688,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Next 4 weeks: use data to <strong>infer</strong> about a population, given just a sample.<ul>
+<li>Next 2 weeks: use data to <strong>infer</strong> about a population, given just a sample.<ul>
 <li>Rely heavily on simulation, rather than formulas.</li>
 </ul>
 </li>
@@ -7706,7 +7704,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
-<li>Last 2 weeks: use data from the past to <strong>predict</strong> what may happen in the future.<ul>
+<li>Last week: use data from the past to <strong>predict</strong> what may happen in the future.<ul>
 <li>A taste of machine learning 🤖.</li>
 </ul>
 </li>
@@ -7770,16 +7768,13 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Important-Dates">Important Dates<a class="anchor-link" href="#Important-Dates">¶</a></h3><p>We will have four quizzes and two exams this quarter. All will be conducted <strong>in person and on paper</strong>.</p>
+<h3 id="Important-Dates">Important Dates<a class="anchor-link" href="#Important-Dates">¶</a></h3><p>We will have one quiz and two exams this term. All will be conducted <strong>synchronously and remotely</strong>.</p>
 <ul>
-<li>Quiz 1: Wednesday, April 15th</li>
-<li>Quiz 2: Wednesday, April 22nd</li>
-<li>Midterm Exam: Friday, May 1st during lecture</li>
-<li>Quiz 3: Wednesday, May 20th</li>
-<li>Quiz 4: Wednesday, May 27th</li>
-<li>Final Exam: Saturday, June 6th from 3:00PM to 6:00PM</li>
+<li>Quiz 1: Monday, July 6th</li>
+<li>Midterm Exam: Wednesday, July 15th during lecture</li>
+<li>Final Exam: Friday, July 31st from 11:30AM to 3:30PM</li>
 </ul>
-<p>Let us know of any conflicts and share your availability for course meetings on the <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1z6y17Fqd6LexKIy8vVTanpEto77BkPGVrXOQxPGYL72eUw/viewform">Welcome Survey</a>.</p>
+<p>Let us know of any conflicts and share your availability for course meetings on the <a href="https://docs.google.com/forms/d/e/1FAIpQLScOZQZnGDHSKWe3NuN2kpO-cTA1Cmj5bKMQrnwrmLnwTVEbaw/viewform?usp=publish-editor">Welcome Survey</a>.</p>
 </div>
 </div>
 </div>
@@ -7790,12 +7785,12 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Getting-started">Getting started<a class="anchor-link" href="#Getting-started">¶</a></h3><p>Your first task is to complete the following by <strong>Thursday, April 2nd at 11:59PM.</strong></p>
+<h3 id="Getting-started">Getting started<a class="anchor-link" href="#Getting-started">¶</a></h3><p>Your first task is to complete the following by <strong>Tuesday, June 30th at 11:59PM.</strong></p>
 <ol>
-<li>Join <a href="https://campuswire.com/p/G65427605">Campuswire</a> (join code: 6479).</li>
-<li>Check if you can access <a href="https://www.gradescope.com/courses/1288255">Gradescope</a>. If not, send a private message to the instructional staff on Campuswire with your name, PID, and email address, then we can add you so you can submit assignments.</li>
-<li>Read the syllabus and course website and complete the <a href="https://forms.gle/9pUxDD5suz94gWGZ9">Syllabus Check</a>.</li>
-<li>Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLSd1z6y17Fqd6LexKIy8vVTanpEto77BkPGVrXOQxPGYL72eUw/viewform">Welcome Survey</a>.</li>
+<li>Join <a href="https://campuswire.com/p/G07A2A106">Campuswire</a> (join code: 5437).</li>
+<li>Check if you can access <a href="https://www.gradescope.com">Gradescope</a>. If not, send a private message to the instructional staff on Campuswire with your name, PID, and email address, then we can add you so you can submit assignments.</li>
+<li>Read the syllabus and course website and complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLScWT8ciz407pE_O7msL4rJXkhkRz_VZZ1XHc7EZ4qftFP4LwQ/viewform?usp=publish-editor">Syllabus Check</a>.</li>
+<li>Fill out the <a href="https://docs.google.com/forms/d/e/1FAIpQLScOZQZnGDHSKWe3NuN2kpO-cTA1Cmj5bKMQrnwrmLnwTVEbaw/viewform?usp=publish-editor">Welcome Survey</a>.</li>
 </ol>
 </div>
 </div>
@@ -7807,7 +7802,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>After that, start working on the <a href="https://practice.dsc10.com/pretest/">Pretest</a> and Lab 0, which are both due <strong>Mon, April 6th at 11:59PM</strong>.</p>
+<p>After that, start working on the <a href="https://practice.dsc10.com/pretest/">Pretest</a> and Lab 0, which are both due <strong>Tuesday, June 30th at 11:59PM</strong>.</p>
 <ul>
 <li>Work on Lab 0 by clicking the link under "Week 2" on the homepage of <a href="https://dsc10.com/">dsc10.com</a>. Assignments are listed by their due dates.</li>
 </ul>
@@ -7855,12 +7850,12 @@ a.anchor-link {
 <h3 id="Getting-help">Getting help<a class="anchor-link" href="#Getting-help">¶</a></h3><p>This is a tough, fast-paced course, but we're here to help you – here's how:</p>
 <ul>
 <li><strong>Discussion Section</strong>.<ul>
-<li>Today's discussion (3PM or 4PM) will focus on getting you set up in our programming environment.</li>
+<li>Today's discussion (2PM) will focus on getting you set up in our programming environment.</li>
 <li>Future discussions will focus on preparation for quizzes and exams (the hardest part of the course).</li>
 </ul>
 </li>
 <li><strong>Office Hours (OH)</strong>.<ul>
-<li>Not held in an office, but in a large open study space.</li>
+<li>Not held in an office, but virtually.</li>
 <li>Come with questions, or just to work!</li>
 <li>See the schedule and instructions on the <a href="https://dsc10.com/calendar">📆 Calendar</a>.</li>
 </ul>
@@ -8539,7 +8534,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Summary,-next-time,-reminders">Summary, next time, reminders<a class="anchor-link" href="#Summary,-next-time,-reminders">¶</a></h2>
+<h2 id="Summary-and-Break">Summary and Break<a class="anchor-link" href="#Summary-and-Break">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8564,7 +8559,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Next-time">Next time<a class="anchor-link" href="#Next-time">¶</a></h3><ul>
+<h3 id="After-the-Break">After the Break<a class="anchor-link" href="#After-the-Break">¶</a></h3><ul>
 <li>We'll learn how to use variables to store values so that we can use them later in our code.</li>
 <li>We'll compute values using functions like <code>max</code>, <code>min</code>, and <code>round</code>.</li>
 <li>We'll discover that there are multiple different ways of storing values in Python. These are called data types.</li>
@@ -8572,18 +8567,17 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Reminders">Reminders<a class="anchor-link" href="#Reminders">¶</a></h3><ol>
-<li>Attend <strong>discussion</strong> section this afternoon at 3PM or 4PM in PODEM 1A20.</li>
-<li>Complete the items in the <a href="https://dsc10.com/syllabus/#-getting-started">Getting Started</a> section of the syllabus by <strong>Thursday, April 2nd at 11:59PM</strong>.</li>
-<li>Then, work on the <a href="https://practice.dsc10.com/pretest/">Pretest</a> and Lab 0, both due <strong>Monday, April 6th at 11:59PM</strong>. Access assignments by clicking links from the homepage of <a href="https://dsc10.com/">dsc10.com</a>.</li>
-</ol>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+</div>
 </div>
 </div>
 </div>

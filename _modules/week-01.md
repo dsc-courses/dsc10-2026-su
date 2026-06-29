@@ -7,8 +7,8 @@ days:
       - name: LEC 1
         type: lecture
         title: Introduction
-        url:
-        html:
+        url: 
+        html: resources/lectures/lec01/lec01.html
         podcast:
         readings:
           - name: CIT 1.0-1.3
