@@ -17,9 +17,9 @@ nav_order: 1
 {: .success }
 >Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist.
 >
->Our first lecture will be held on **Monday, June 29th at 11:00 AM** in **HDSI 355** and over [Zoom][https://ucsd.zoom.us/j/97855470792].
+>Our first lecture will be held on **Monday, June 29th at 11:00 AM** in **HDSI 355** and over [Zoom](https://ucsd.zoom.us/j/97855470792).
 >
->Discussion will meet immediately after lecture over [Zoom][https://ucsd.zoom.us/j/5436655328?omn=91749274198].
+>Discussion will meet immediately after lecture over [Zoom](https://ucsd.zoom.us/j/5436655328?omn=91749274198).
 
 
 <!-- {: .warning }

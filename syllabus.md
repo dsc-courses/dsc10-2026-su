@@ -73,7 +73,7 @@ Lecture is meant to introduce you to the main concepts of the course. In-person 
 
 There is one discussion section that meets twice a week:
 
-- M 2-2:50PM over [Zoom][https://ucsd.zoom.us/j/5436655328?omn=91749274198].
+- M 2-2:50PM over [Zoom](https://ucsd.zoom.us/j/5436655328?omn=91749274198).
 - W 2-2:50PM over Zoom.
 
 Discussions will start in Week 1 on Monday, June 29th. The first discussion includes some useful instruction and tips for using Jupyter notebooks and Datahub, the programming tools we'll be using in this course. It should be helpful to get you set up and comfortable with the technology you'll be using all term.
