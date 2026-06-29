@@ -39,7 +39,8 @@ days:
       - name: DISC 1
         type: disc
         title: Getting Started with Jupyter Notebooks
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=discussion/disc01/disc01.ipynb
+        zoom: https://ucsd.zoom.us/j/5436655328?omn=91749274198
   - date: 2026-6-30
     events:
       - name: LAB 0

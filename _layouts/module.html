@@ -154,6 +154,12 @@
             ><button type="button" class="btn btn-info">📝 solutions</button></a
           ></small
         >
+        {%- endif -%} {%- if event.zoom -%} &nbsp;&nbsp;
+        <small>
+          <a href="{{ event.zoom }}">
+            <button type="button" class="btn btn-info">zoom</button>
+          </a>
+        </small>
         {%- endif -%} {%- endif -%}
       </p>
       <p>
