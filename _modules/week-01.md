@@ -92,7 +92,6 @@ days:
         type: lab
         title: Expressions and Data Types
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=labs/lab0/lab0.ipynb
-        html: resources/lab0.html
       - name: LAB 1
         type: lab
         title: Arrays and DataFrames
