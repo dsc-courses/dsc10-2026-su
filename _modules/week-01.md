@@ -42,10 +42,6 @@ days:
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=discussion/disc01/disc01.ipynb
   - date: 2026-6-30
     events:
-      - name: LAB 0
-        type: lab
-        title: Expressions and Data Types
-        url:
       - name: SUR
         type: survey
         title: Welcome Survey
@@ -92,6 +88,10 @@ days:
         url:
   - date: 2026-7-2
     events:
+      - name: LAB 0
+        type: lab
+        title: Expressions and Data Types
+        url:
       - name: LAB 1
         type: lab
         title: Arrays and DataFrames
