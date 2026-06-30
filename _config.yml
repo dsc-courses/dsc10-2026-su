@@ -28,7 +28,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'LICENSE', 'README.md', 'vendor']
 urls:
   campuswirejoin: &campuswirejoin 'https://campuswire.com/c/G07A2A106'
   campuswire: &campuswire 'https://campuswire.com/p/G07A2A106' 
-  gradescope: &gradescope 'https://www.gradescope.com'
+  gradescope: &gradescope 'https://www.gradescope.com/courses/1332877'
   reference: &reference 'https://dsc-courses.github.io/bpd-reference/docs/documentation/intro'
   practice: &practice 'https://practice.dsc10.com/'
   cc: &cc 'http://cc.dsc10.com/'

@@ -164,7 +164,7 @@ Make sure you can access all three sites. It's a good idea to bookmark
 them, too (though they're all linked at the top of this website).
 
 {: .warning }
-**Please do not contact the staff through Canvas.**
+**Please do not contact the staff through Canvas. We will not be using Canvas for this course.**
 
 ### Syllabus Check
 
