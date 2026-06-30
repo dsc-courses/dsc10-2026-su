@@ -7515,7 +7515,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Run this cell to set up packages for lecture.</span>
@@ -7597,12 +7597,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [58]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span> <span class="o">=</span> <span class="n">bpd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/states.csv'</span><span class="p">)</span>
@@ -7610,120 +7610,6 @@ a.anchor-link {
 <span class="n">states</span> <span class="o">=</span> <span class="n">states</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'State'</span><span class="p">)</span>
 <span class="n">states</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -7761,132 +7647,18 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># This DataFrame only contains rows where the 'Region' is 'West'!</span>
 <span class="n">only_west</span> <span class="o">=</span> <span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'West'</span><span class="p">]</span>
 <span class="n">only_west</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[59]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>California</th>
-<td>West</td>
-<td>Sacramento</td>
-<td>39538223</td>
-<td>155779</td>
-<td>Democratic</td>
-<td>253.81</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Utah</th>
-<td>West</td>
-<td>Salt Lake City</td>
-<td>3271616</td>
-<td>82170</td>
-<td>Republican</td>
-<td>39.82</td>
-</tr>
-<tr>
-<th>Washington</th>
-<td>West</td>
-<td>Olympia</td>
-<td>7705281</td>
-<td>66456</td>
-<td>Democratic</td>
-<td>115.95</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>13 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -7928,12 +7700,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="mi">5</span> <span class="o">==</span> <span class="mi">6</span>
@@ -7942,24 +7714,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>False</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [61]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="mi">5</span> <span class="o">==</span> <span class="mi">6</span><span class="p">)</span>
@@ -7968,40 +7728,16 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>bool</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [62]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="mi">9</span> <span class="o">+</span> <span class="mi">10</span> <span class="o">&lt;</span> <span class="mi">21</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>True</pre>
 </div>
 </div>
 </div>
@@ -8052,12 +7788,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span>
@@ -8066,150 +7802,16 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 6 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [64]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'West'</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[64]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>State
-Alabama          False
-Alaska            True
-Arizona           True
-                 ...  
-West Virginia    False
-Wisconsin        False
-Wyoming           True
-Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
@@ -8243,130 +7845,16 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [65]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'West'</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[65]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>California</th>
-<td>West</td>
-<td>Sacramento</td>
-<td>39538223</td>
-<td>155779</td>
-<td>Democratic</td>
-<td>253.81</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Utah</th>
-<td>West</td>
-<td>Salt Lake City</td>
-<td>3271616</td>
-<td>82170</td>
-<td>Republican</td>
-<td>39.82</td>
-</tr>
-<tr>
-<th>Washington</th>
-<td>West</td>
-<td>Olympia</td>
-<td>7705281</td>
-<td>66456</td>
-<td>Democratic</td>
-<td>115.95</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>13 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -8382,66 +7870,16 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [66]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Pacific Northwest'</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[66]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -8472,131 +7910,17 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [67]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">only_rep</span> <span class="o">=</span> <span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Party'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Republican'</span><span class="p">]</span>
 <span class="n">only_rep</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[67]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>31 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -8623,12 +7947,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">only_rep</span><span class="o">.</span><span class="n">shape</span>
@@ -8637,24 +7961,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[68]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>(31, 6)</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [69]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Number of rows.</span>
@@ -8664,24 +7976,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[69]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>31</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [70]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Number of columns.</span>
@@ -8691,41 +7991,17 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[70]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>6</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [71]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># What proportion of US states are Republican?</span>
 <span class="n">only_rep</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">/</span> <span class="n">states</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[71]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>0.62</pre>
 </div>
 </div>
 </div>
@@ -8756,12 +8032,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [72]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">midwest</span> <span class="o">=</span> <span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Midwest'</span><span class="p">]</span>
@@ -8771,245 +8047,17 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[72]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Illinois</th>
-<td>Midwest</td>
-<td>Springfield</td>
-<td>12812508</td>
-<td>55519</td>
-<td>Democratic</td>
-<td>230.78</td>
-</tr>
-<tr>
-<th>Indiana</th>
-<td>Midwest</td>
-<td>Indianapolis</td>
-<td>6785528</td>
-<td>35826</td>
-<td>Republican</td>
-<td>189.40</td>
-</tr>
-<tr>
-<th>Iowa</th>
-<td>Midwest</td>
-<td>Des Moines</td>
-<td>3190369</td>
-<td>55857</td>
-<td>Republican</td>
-<td>57.12</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Ohio</th>
-<td>Midwest</td>
-<td>Columbus</td>
-<td>11799448</td>
-<td>40861</td>
-<td>Republican</td>
-<td>288.77</td>
-</tr>
-<tr>
-<th>South Dakota</th>
-<td>Midwest</td>
-<td>Pierre</td>
-<td>886667</td>
-<td>75811</td>
-<td>Republican</td>
-<td>11.70</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-</tbody>
-</table>
-<p>12 rows × 6 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [73]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">midwest_sorted</span> <span class="o">=</span> <span class="n">midwest</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'Land Area'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="n">midwest_sorted</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[73]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Kansas</th>
-<td>Midwest</td>
-<td>Topeka</td>
-<td>2937880</td>
-<td>81759</td>
-<td>Republican</td>
-<td>35.93</td>
-</tr>
-<tr>
-<th>Minnesota</th>
-<td>Midwest</td>
-<td>Saint Paul</td>
-<td>5706494</td>
-<td>79627</td>
-<td>Democratic</td>
-<td>71.67</td>
-</tr>
-<tr>
-<th>Nebraska</th>
-<td>Midwest</td>
-<td>Lincoln</td>
-<td>1961504</td>
-<td>76824</td>
-<td>Republican</td>
-<td>25.53</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-<tr>
-<th>Ohio</th>
-<td>Midwest</td>
-<td>Columbus</td>
-<td>11799448</td>
-<td>40861</td>
-<td>Republican</td>
-<td>288.77</td>
-</tr>
-<tr>
-<th>Indiana</th>
-<td>Midwest</td>
-<td>Indianapolis</td>
-<td>6785528</td>
-<td>35826</td>
-<td>Republican</td>
-<td>189.40</td>
-</tr>
-</tbody>
-</table>
-<p>12 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -9027,46 +8075,16 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell celltag_raises-exception">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs celltag_raises-exception">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [74]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">midwest_sorted</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'State'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">KeyError</span>                                  Traceback (most recent call last)
-<span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[74]</span><span class="ansi-green-fg">, line 1</span>
-<span class="ansi-green-fg">----&gt; </span><span class="ansi-green-fg">1</span> <span class="ansi-yellow-bg">midwest_sorted</span><span class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-fg ansi-yellow-bg">'</span><span class="ansi-yellow-fg ansi-yellow-bg">State</span><span class="ansi-yellow-fg ansi-yellow-bg">'</span><span class="ansi-yellow-bg">)</span>.iloc[<span class="ansi-green-fg">0</span>]
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/dsc10/private/.venv/lib/python3.14/site-packages/babypandas/utils.py:20</span>, in <span class="ansi-cyan-fg">suppress_warnings.&lt;locals&gt;.wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-<span class="ansi-green-fg">     18</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> warnings.catch_warnings():
-<span class="ansi-green-fg">     19</span>     warnings.simplefilter(<span class="ansi-yellow-fg">"</span><span class="ansi-yellow-fg">ignore</span><span class="ansi-yellow-fg">"</span>)
-<span class="ansi-green-fg">---&gt; </span><span class="ansi-green-fg">20</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-<span class="ansi-cyan-fg">File </span><span class="ansi-green-fg">~/dsc10/private/.venv/lib/python3.14/site-packages/babypandas/bpd.py:328</span>, in <span class="ansi-cyan-fg">DataFrame.get</span><span class="ansi-blue-fg">(self, key)</span>
-<span class="ansi-green-fg">    326</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">any</span>(mask):
-<span class="ansi-green-fg">    327</span>     k = [key] <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">isinstance</span>(key, <span style="color: rgb(0,135,0)">str</span>) <span class="ansi-bold" style="color: rgb(0,135,0)">else</span> key
-<span class="ansi-green-fg">--&gt; </span><span class="ansi-green-fg">328</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">KeyError</span>(<span class="ansi-yellow-fg">"</span><span class="ansi-bold" style="color: rgb(175,95,135)">{}</span><span class="ansi-yellow-fg"> not found in columns</span><span class="ansi-yellow-fg">"</span>.format(np.array(k)[mask]))
-<span class="ansi-green-fg">    330</span> f = _lift_to_pd(<span style="color: rgb(0,135,0)">self</span>._pd.get)
-<span class="ansi-green-fg">    331</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> f(key=key)
-
-<span class="ansi-red-fg">KeyError</span>: "['State'] not found in columns"</pre>
 </div>
 </div>
 </div>
@@ -9092,12 +8110,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">midwest_sorted</span><span class="o">.</span><span class="n">index</span>
@@ -9106,43 +8124,16 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[75]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Index(['Kansas', 'Minnesota', 'Nebraska', 'South Dakota', 'North Dakota',
-       'Missouri', 'Michigan', 'Iowa', 'Illinois', 'Wisconsin', 'Ohio',
-       'Indiana'],
-      dtype='object', name='State')</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">midwest_sorted</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[76]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'Kansas'</pre>
 </div>
 </div>
 </div>
@@ -9163,29 +8154,17 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Final solution, which you should build up one step at a time.</span>
 <span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Midwest'</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'Land Area'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'Kansas'</pre>
 </div>
 </div>
 </div>
@@ -9203,12 +8182,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># You can space your code out like this if needed.</span>
@@ -9218,18 +8197,6 @@ Name: Region, Length: 50, dtype: bool</pre>
     <span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'Kansas'</pre>
 </div>
 </div>
 </div>
@@ -9249,28 +8216,16 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">...</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Ellipsis</pre>
 </div>
 </div>
 </div>
@@ -9308,12 +8263,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="p">[(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Party'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Republican'</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'South'</span><span class="p">)]</span>
@@ -9322,246 +8277,18 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Arkansas</th>
-<td>South</td>
-<td>Little Rock</td>
-<td>3011524</td>
-<td>52035</td>
-<td>Republican</td>
-<td>57.87</td>
-</tr>
-<tr>
-<th>Florida</th>
-<td>South</td>
-<td>Tallahassee</td>
-<td>21538187</td>
-<td>53625</td>
-<td>Republican</td>
-<td>401.64</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Tennessee</th>
-<td>South</td>
-<td>Nashville</td>
-<td>6910840</td>
-<td>41235</td>
-<td>Republican</td>
-<td>167.60</td>
-</tr>
-<tr>
-<th>Texas</th>
-<td>South</td>
-<td>Austin</td>
-<td>29145505</td>
-<td>261232</td>
-<td>Republican</td>
-<td>111.57</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-</tbody>
-</table>
-<p>13 rows × 6 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># You can also add line breaks within brackets.</span>
 <span class="n">states</span><span class="p">[(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Party'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Republican'</span><span class="p">)</span> <span class="o">&amp;</span> 
        <span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'South'</span><span class="p">)]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[81]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Arkansas</th>
-<td>South</td>
-<td>Little Rock</td>
-<td>3011524</td>
-<td>52035</td>
-<td>Republican</td>
-<td>57.87</td>
-</tr>
-<tr>
-<th>Florida</th>
-<td>South</td>
-<td>Tallahassee</td>
-<td>21538187</td>
-<td>53625</td>
-<td>Republican</td>
-<td>401.64</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Tennessee</th>
-<td>South</td>
-<td>Nashville</td>
-<td>6910840</td>
-<td>41235</td>
-<td>Republican</td>
-<td>167.60</td>
-</tr>
-<tr>
-<th>Texas</th>
-<td>South</td>
-<td>Austin</td>
-<td>29145505</td>
-<td>261232</td>
-<td>Republican</td>
-<td>111.57</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-</tbody>
-</table>
-<p>13 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -9577,12 +8304,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Party'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Republican'</span><span class="p">)</span>
@@ -9591,32 +8318,12 @@ Name: Region, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[82]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>State
-Alabama          True
-Alaska           True
-Arizona          True
-                 ... 
-West Virginia    True
-Wisconsin        True
-Wyoming          True
-Name: Party, Length: 50, dtype: bool</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [83]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'South'</span><span class="p">)</span>
@@ -9625,56 +8332,16 @@ Name: Party, Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>State
-Alabama           True
-Alaska           False
-Arizona          False
-                 ...  
-West Virginia     True
-Wisconsin        False
-Wyoming          False
-Name: Region, Length: 50, dtype: bool</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Party'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Republican'</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'South'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>State
-Alabama           True
-Alaska           False
-Arizona          False
-                 ...  
-West Virginia     True
-Wisconsin        False
-Wyoming          False
-Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
@@ -9690,12 +8357,12 @@ Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [85]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span>
@@ -9704,120 +8371,6 @@ Length: 50, dtype: bool</pre>
     <span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'Population'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[85]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Texas</th>
-<td>South</td>
-<td>Austin</td>
-<td>29145505</td>
-<td>261232</td>
-<td>Republican</td>
-<td>111.57</td>
-</tr>
-<tr>
-<th>Florida</th>
-<td>South</td>
-<td>Tallahassee</td>
-<td>21538187</td>
-<td>53625</td>
-<td>Republican</td>
-<td>401.64</td>
-</tr>
-<tr>
-<th>Georgia</th>
-<td>South</td>
-<td>Atlanta</td>
-<td>10711908</td>
-<td>57513</td>
-<td>Republican</td>
-<td>186.25</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>Arkansas</th>
-<td>South</td>
-<td>Little Rock</td>
-<td>3011524</td>
-<td>52035</td>
-<td>Republican</td>
-<td>57.87</td>
-</tr>
-<tr>
-<th>Mississippi</th>
-<td>South</td>
-<td>Jackson</td>
-<td>2961279</td>
-<td>46923</td>
-<td>Republican</td>
-<td>63.11</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-</tbody>
-</table>
-<p>13 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -9851,12 +8404,12 @@ Length: 50, dtype: bool</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span>
@@ -9866,83 +8419,6 @@ Length: 50, dtype: bool</pre>
     <span class="o">.</span><span class="n">take</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">])</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[86]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Texas</th>
-<td>South</td>
-<td>Austin</td>
-<td>29145505</td>
-<td>261232</td>
-<td>Republican</td>
-<td>111.57</td>
-</tr>
-<tr>
-<th>Florida</th>
-<td>South</td>
-<td>Tallahassee</td>
-<td>21538187</td>
-<td>53625</td>
-<td>Republican</td>
-<td>401.64</td>
-</tr>
-<tr>
-<th>Georgia</th>
-<td>South</td>
-<td>Atlanta</td>
-<td>10711908</td>
-<td>57513</td>
-<td>Republican</td>
-<td>186.25</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -10006,28 +8482,16 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="o">...</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[87]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>Ellipsis</pre>
 </div>
 </div>
 </div>
@@ -10070,139 +8534,16 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">Pop_in_millions</span><span class="o">=</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Population'</span><span class="p">)</span> <span class="o">/</span> <span class="mi">1_000_000</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-<th>Pop_in_millions</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-<td>5.02</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-<td>0.73</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-<td>7.15</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-<td>1.79</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-<td>5.89</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-<td>0.58</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 7 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -10223,12 +8564,12 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [89]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span>
@@ -10241,126 +8582,12 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[89]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-<th>Pop_in_millions</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-<td>5.02</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-<td>0.73</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-<td>7.15</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-<td>1.79</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-<td>5.89</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-<td>0.58</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 6 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="p">(</span>
@@ -10370,84 +8597,6 @@ states.get('Population').sum() - states[states.get('Region') ==                 
     <span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Pop_in_millions'</span><span class="p">,</span> <span class="s1">'Capital City'</span><span class="p">])</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Pop_in_millions</th>
-<th>Capital City</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>5.02</td>
-<td>Montgomery</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>0.73</td>
-<td>Juneau</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>7.15</td>
-<td>Phoenix</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>1.79</td>
-<td>Charleston</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>5.89</td>
-<td>Madison</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>0.58</td>
-<td>Cheyenne</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 2 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -10466,12 +8615,12 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [91]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Capital City'</span><span class="p">)</span>
@@ -10480,32 +8629,12 @@ states.get('Population').sum() - states[states.get('Region') ==                 
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[91]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>State
-Alabama          Montgomery
-Alaska               Juneau
-Arizona             Phoenix
-                    ...    
-West Virginia    Charleston
-Wisconsin           Madison
-Wyoming            Cheyenne
-Name: Capital City, Length: 50, dtype: object</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [92]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Capital City'</span><span class="p">,</span> <span class="s1">'Party'</span><span class="p">])</span>
@@ -10514,163 +8643,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[92]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Capital City</th>
-<th>Party</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>Montgomery</td>
-<td>Republican</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>Juneau</td>
-<td>Republican</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>Phoenix</td>
-<td>Republican</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>Charleston</td>
-<td>Republican</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Madison</td>
-<td>Republican</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>Cheyenne</td>
-<td>Republican</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 2 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Capital City'</span><span class="p">])</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[93]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Capital City</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>Montgomery</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>Juneau</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>Phoenix</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>Charleston</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Madison</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>Cheyenne</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 1 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -10697,12 +8679,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [94]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'West'</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Population'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -10711,40 +8693,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>78588572</pre>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [95]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="p">[</span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Midwest'</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Population'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[95]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>68985454</pre>
 </div>
 </div>
 </div>
@@ -10771,72 +8729,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Region'</span><span class="p">,</span> <span class="s1">'Population'</span><span class="p">])</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[96]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Population</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>68985454</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>57609148</td>
-</tr>
-<tr>
-<th>South</th>
-<td>125576562</td>
-</tr>
-<tr>
-<th>West</th>
-<td>78588572</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -10919,28 +8821,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">show_grouping_animation</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
-<iframe allowfullscreen="" frameborder="0" height="350" src="https://docs.google.com/presentation/d/1IBMwlqBtnD-Ml1Zhmqs6pnYV6jcYayr3VGFqN9Dg3xk/embed?start=false&amp;loop=false&amp;delayms=60000&amp;rm=minimal" width="600"></iframe>
 </div>
 </div>
 </div>
@@ -10956,12 +8846,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pets</span> <span class="o">=</span> <span class="n">bpd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span>
@@ -10976,159 +8866,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[98]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Species</th>
-<th>Color</th>
-<th>Weight</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>0</th>
-<td>dog</td>
-<td>black</td>
-<td>40</td>
-<td>5.0</td>
-</tr>
-<tr>
-<th>1</th>
-<td>cat</td>
-<td>golden</td>
-<td>15</td>
-<td>8.0</td>
-</tr>
-<tr>
-<th>2</th>
-<td>cat</td>
-<td>black</td>
-<td>20</td>
-<td>9.0</td>
-</tr>
-<tr>
-<th>3</th>
-<td>dog</td>
-<td>white</td>
-<td>80</td>
-<td>2.0</td>
-</tr>
-<tr>
-<th>4</th>
-<td>dog</td>
-<td>golden</td>
-<td>25</td>
-<td>0.5</td>
-</tr>
-<tr>
-<th>5</th>
-<td>hamster</td>
-<td>golden</td>
-<td>1</td>
-<td>3.0</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [99]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">pets</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Species'</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[99]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Color</th>
-<th>Weight</th>
-<th>Age</th>
-</tr>
-<tr>
-<th>Species</th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>cat</th>
-<td>golden</td>
-<td>20</td>
-<td>9.0</td>
-</tr>
-<tr>
-<th>dog</th>
-<td>white</td>
-<td>80</td>
-<td>5.0</td>
-</tr>
-<tr>
-<th>hamster</th>
-<td>golden</td>
-<td>1</td>
-<td>3.0</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -11155,130 +8902,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[100]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Region</th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>State</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Alabama</th>
-<td>South</td>
-<td>Montgomery</td>
-<td>5024279</td>
-<td>50645</td>
-<td>Republican</td>
-<td>99.21</td>
-</tr>
-<tr>
-<th>Alaska</th>
-<td>West</td>
-<td>Juneau</td>
-<td>733391</td>
-<td>570641</td>
-<td>Republican</td>
-<td>1.29</td>
-</tr>
-<tr>
-<th>Arizona</th>
-<td>West</td>
-<td>Phoenix</td>
-<td>7151502</td>
-<td>113594</td>
-<td>Republican</td>
-<td>62.96</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>West Virginia</th>
-<td>South</td>
-<td>Charleston</td>
-<td>1793716</td>
-<td>24038</td>
-<td>Republican</td>
-<td>74.62</td>
-</tr>
-<tr>
-<th>Wisconsin</th>
-<td>Midwest</td>
-<td>Madison</td>
-<td>5893718</td>
-<td>54158</td>
-<td>Republican</td>
-<td>108.82</td>
-</tr>
-<tr>
-<th>Wyoming</th>
-<td>West</td>
-<td>Cheyenne</td>
-<td>576851</td>
-<td>97093</td>
-<td>Republican</td>
-<td>5.94</td>
-</tr>
-</tbody>
-</table>
-<p>50 rows × 6 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -11297,12 +8930,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [101]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Region'</span><span class="p">,</span> <span class="s1">'Population'</span><span class="p">])</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -11311,68 +8944,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[101]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Population</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>68985454</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>57609148</td>
-</tr>
-<tr>
-<th>South</th>
-<td>125576562</td>
-</tr>
-<tr>
-<th>West</th>
-<td>78588572</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [102]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Note the use of .index – remember, the index isn't a column!</span>
@@ -11385,18 +8962,6 @@ Name: Capital City, Length: 50, dtype: object</pre>
     <span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[102]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'South'</pre>
 </div>
 </div>
 </div>
@@ -11487,72 +9052,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [103]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'Region'</span><span class="p">,</span> <span class="s1">'Population'</span><span class="p">])</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[103]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Population</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>68985454</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>57609148</td>
-</tr>
-<tr>
-<th>South</th>
-<td>125576562</td>
-</tr>
-<tr>
-<th>West</th>
-<td>78588572</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -11568,96 +9077,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [104]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[104]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>SpringfieldIndianapolisDes MoinesTopekaLansing...</td>
-<td>68985454</td>
-<td>750524</td>
-<td>DemocraticRepublicanRepublicanRepublicanRepubl...</td>
-<td>1298.78</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>HartfordAugustaBostonConcordTrentonAlbanyHarri...</td>
-<td>57609148</td>
-<td>161912</td>
-<td>DemocraticDemocraticDemocraticDemocraticDemocr...</td>
-<td>4957.49</td>
-</tr>
-<tr>
-<th>South</th>
-<td>MontgomeryLittle RockDoverTallahasseeAtlantaFr...</td>
-<td>125576562</td>
-<td>868356</td>
-<td>RepublicanRepublicanDemocraticRepublicanRepubl...</td>
-<td>3189.37</td>
-</tr>
-<tr>
-<th>West</th>
-<td>JuneauPhoenixSacramentoDenverHonoluluBoiseHele...</td>
-<td>78588572</td>
-<td>1751054</td>
-<td>RepublicanRepublicanDemocraticDemocraticDemocr...</td>
-<td>881.62</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -11725,96 +9154,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [105]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[105]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Capital City</th>
-<th>Population</th>
-<th>Land Area</th>
-<th>Party</th>
-<th>Density</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>12</td>
-<td>12</td>
-<td>12</td>
-<td>12</td>
-<td>12</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>9</td>
-<td>9</td>
-<td>9</td>
-<td>9</td>
-<td>9</td>
-</tr>
-<tr>
-<th>South</th>
-<td>16</td>
-<td>16</td>
-<td>16</td>
-<td>16</td>
-<td>16</td>
-</tr>
-<tr>
-<th>West</th>
-<td>13</td>
-<td>13</td>
-<td>13</td>
-<td>13</td>
-<td>13</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -11837,12 +9186,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [106]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">states_by_region</span> <span class="o">=</span> <span class="n">states</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Region'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -11851,62 +9200,6 @@ Name: Capital City, Length: 50, dtype: object</pre>
                     <span class="p">)</span><span class="o">.</span><span class="n">get</span><span class="p">([</span><span class="s1">'States'</span><span class="p">])</span>
 <span class="n">states_by_region</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[106]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>States</th>
-</tr>
-<tr>
-<th>Region</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Midwest</th>
-<td>12</td>
-</tr>
-<tr>
-<th>Northeast</th>
-<td>9</td>
-</tr>
-<tr>
-<th>South</th>
-<td>16</td>
-</tr>
-<tr>
-<th>West</th>
-<td>13</td>
-</tr>
-</tbody>
-</table>
-</div>
 </div>
 </div>
 </div>
@@ -11923,29 +9216,17 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [107]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">IPython.display</span><span class="w"> </span><span class="kn">import</span> <span class="n">YouTubeVideo</span>
 <span class="n">YouTubeVideo</span><span class="p">(</span><span class="s1">'xg7rnjWnZ48'</span><span class="p">)</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[107]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<iframe allowfullscreen="" frameborder="0" height="300" src="https://www.youtube.com/embed/xg7rnjWnZ48" width="400"></iframe>
 </div>
 </div>
 </div>
@@ -11974,113 +9255,17 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [108]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">imdb</span> <span class="o">=</span> <span class="n">bpd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'data/imdb.csv'</span><span class="p">)</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s1">'Title'</span><span class="p">)</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">'Rating'</span><span class="p">)</span>
 <span class="n">imdb</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[108]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Votes</th>
-<th>Rating</th>
-<th>Year</th>
-<th>Decade</th>
-</tr>
-<tr>
-<th>Title</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Akira</th>
-<td>91652</td>
-<td>8.0</td>
-<td>1988</td>
-<td>1980</td>
-</tr>
-<tr>
-<th>Per un pugno di dollari</th>
-<td>124671</td>
-<td>8.0</td>
-<td>1964</td>
-<td>1960</td>
-</tr>
-<tr>
-<th>Guardians of the Galaxy</th>
-<td>527349</td>
-<td>8.0</td>
-<td>2014</td>
-<td>2010</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>The Godfather: Part II</th>
-<td>692753</td>
-<td>9.0</td>
-<td>1974</td>
-<td>1970</td>
-</tr>
-<tr>
-<th>The Shawshank Redemption</th>
-<td>1498733</td>
-<td>9.2</td>
-<td>1994</td>
-<td>1990</td>
-</tr>
-<tr>
-<th>The Godfather</th>
-<td>1027398</td>
-<td>9.2</td>
-<td>1972</td>
-<td>1970</td>
-</tr>
-</tbody>
-</table>
-<p>250 rows × 4 columns</p>
-</div>
 </div>
 </div>
 </div>
@@ -12096,12 +9281,12 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [109]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">imdb</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Decade'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
@@ -12110,116 +9295,17 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[109]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Votes</th>
-<th>Rating</th>
-<th>Year</th>
-</tr>
-<tr>
-<th>Decade</th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>1920</th>
-<td>4</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr>
-<th>1930</th>
-<td>7</td>
-<td>7</td>
-<td>7</td>
-</tr>
-<tr>
-<th>1940</th>
-<td>14</td>
-<td>14</td>
-<td>14</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>1990</th>
-<td>42</td>
-<td>42</td>
-<td>42</td>
-</tr>
-<tr>
-<th>2000</th>
-<td>50</td>
-<td>50</td>
-<td>50</td>
-</tr>
-<tr>
-<th>2010</th>
-<td>29</td>
-<td>29</td>
-<td>29</td>
-</tr>
-</tbody>
-</table>
-<p>10 rows × 3 columns</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [110]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># We'll learn how to make plots like this in the next lecture!</span>
 <span class="n">imdb</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Decade'</span><span class="p">)</span><span class="o">.</span><span class="n">count</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">y</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">);</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
-<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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"/>
 </div>
 </div>
 </div>
@@ -12246,28 +9332,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [111]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">imdb</span><span class="p">[</span><span class="n">imdb</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'Decade'</span><span class="p">)</span> <span class="o">==</span> <span class="mi">1990</span><span class="p">]</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Rating'</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[111]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
-<pre>'The Shawshank Redemption'</pre>
 </div>
 </div>
 </div>
@@ -12294,112 +9368,16 @@ Name: Capital City, Length: 50, dtype: object</pre>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [112]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">imdb</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Decade'</span><span class="p">)</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
 </pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[112]:</div>
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
-<div>
-<style scoped="">
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-<thead>
-<tr style="text-align: right;">
-<th></th>
-<th>Title</th>
-<th>Votes</th>
-<th>Rating</th>
-<th>Year</th>
-</tr>
-<tr>
-<th>Decade</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>1920</th>
-<td>The Kid</td>
-<td>98794</td>
-<td>8.3</td>
-<td>1927</td>
-</tr>
-<tr>
-<th>1930</th>
-<td>The Wizard of Oz</td>
-<td>259235</td>
-<td>8.5</td>
-<td>1939</td>
-</tr>
-<tr>
-<th>1940</th>
-<td>The Treasure of the Sierra Madre</td>
-<td>350551</td>
-<td>8.6</td>
-<td>1949</td>
-</tr>
-<tr>
-<th>...</th>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr>
-<th>1990</th>
-<td>Unforgiven</td>
-<td>1498733</td>
-<td>9.2</td>
-<td>1999</td>
-</tr>
-<tr>
-<th>2000</th>
-<td>Yip Man</td>
-<td>1473049</td>
-<td>8.9</td>
-<td>2009</td>
-</tr>
-<tr>
-<th>2010</th>
-<td>X-Men: Days of Future Past</td>
-<td>1271949</td>
-<td>8.7</td>
-<td>2015</td>
-</tr>
-</tbody>
-</table>
-<p>10 rows × 4 columns</p>
-</div>
 </div>
 </div>
 </div>
