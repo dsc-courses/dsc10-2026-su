@@ -57,7 +57,7 @@ days:
         title: Arrays and DataFrames
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec04/lec04-live.ipynb
         html: resources/lectures/lec04/lec04.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/YeBd-CFYekLkFsJfM8wEKdhBZObeKVqIfaygROHvtT6j5N62IYPrIO47VYYW4YqD.QpZ4brMVkP-TBpqS?startTime=1782928836000
         readings:
           - name: BPD 9
             url: https://notes.dsc10.com/02-data_sets/accessing.html
@@ -67,7 +67,7 @@ days:
         title: Querying and Grouping
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec05/lec05-live.ipynb
         html: resources/lectures/lec05/lec05.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/YeBd-CFYekLkFsJfM8wEKdhBZObeKVqIfaygROHvtT6j5N62IYPrIO47VYYW4YqD.QpZ4brMVkP-TBpqS?startTime=1782928836000
         readings:
           - name: BPD 10-11
             url: https://notes.dsc10.com/02-data_sets/querying.html
@@ -77,7 +77,7 @@ days:
         title: Grouping and Data Visualization
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec06/lec06-live.ipynb
         html: resources/lectures/lec06/lec06.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/YeBd-CFYekLkFsJfM8wEKdhBZObeKVqIfaygROHvtT6j5N62IYPrIO47VYYW4YqD.QpZ4brMVkP-TBpqS?startTime=1782928836000
         readings:
           - name: CIT 7.0-7.1
             url: https://inferentialthinking.com/chapters/07/Visualization.html

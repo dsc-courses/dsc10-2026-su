@@ -16,9 +16,6 @@ nav_order: 1
 
 {: .success }
 >Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist.
->
->An announcement will go out when Datahub and assignments are available to access. Deadlines will be updated accordingly due to delayed access.
-
 
 
 <!-- {: .warning }
