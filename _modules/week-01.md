@@ -85,7 +85,7 @@ days:
       - name: DISC 2
         type: disc
         title: Arrays and DataFrames
-        url:
+        url: https://practice.dsc10.com/disc02/index.html
   - date: 2026-7-2
     events:
       - name: LAB 0
