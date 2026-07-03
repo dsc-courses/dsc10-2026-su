@@ -7532,7 +7532,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lecture-8-%E2%80%93-Functions-and-Applying">Lecture 8 – Functions and Applying<a class="anchor-link" href="#Lecture-8-%E2%80%93-Functions-and-Applying">¶</a></h1><h2 id="DSC-10,-Spring-2026">DSC 10, Spring 2026<a class="anchor-link" href="#DSC-10,-Spring-2026">¶</a></h2>
+<h1 id="Lecture-8-%E2%80%93-Functions-and-Applying">Lecture 8 – Functions and Applying<a class="anchor-link" href="#Lecture-8-%E2%80%93-Functions-and-Applying">¶</a></h1><h2 id="DSC-10,-Summer-2026">DSC 10, Summer 2026<a class="anchor-link" href="#DSC-10,-Summer-2026">¶</a></h2>
 </div>
 </div>
 </div>
@@ -7544,7 +7544,6 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Agenda">Agenda<a class="anchor-link" href="#Agenda">¶</a></h3><ul>
-<li>Histogram question.</li>
 <li>Functions.</li>
 <li>Applying functions to DataFrames.<ul>
 <li>Example: Student names.</li>
@@ -7552,76 +7551,6 @@ a.anchor-link {
 </li>
 </ul>
 <p><em><strong>Reminder:</strong></em> Use the <a href="https://dsc-courses.github.io/bpd-reference/docs/documentation/intro/">DSC 10 Reference Sheet</a>.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Histogram-question">Histogram question<a class="anchor-link" href="#Histogram-question">¶</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Concept-Check-%E2%9C%85-%E2%80%93-Answer-at-cc.dsc10.com">Concept Check ✅ – Answer at <a href="http://cc.dsc10.com">cc.dsc10.com</a><a class="anchor-link" href="#Concept-Check-%E2%9C%85-%E2%80%93-Answer-at-cc.dsc10.com">¶</a></h3><p>Suppose we created a density histogram of people's shoe sizes. 👟 Below are the bins we chose along with their heights.</p>
-<table>
-<thead>
-<tr>
-<th>Bin</th>
-<th>Height of Bar</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>[3, 7)</td>
-<td>0.05</td>
-</tr>
-<tr>
-<td>[7, 10)</td>
-<td>0.1</td>
-</tr>
-<tr>
-<td>[10, 12)</td>
-<td>0.15</td>
-</tr>
-<tr>
-<td>[12, 16]</td>
-<td>$X$</td>
-</tr>
-</tbody>
-</table>
-<p>What should the value of $X$ be so that this is a valid histogram?</p>
-<p>A. 0.02             
-B. 0.05             
-C. 0.2             
-D. 0.5             
-E. 0.7             </p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<details>
-<summary>✅ Click <b>here</b> to see an explanation after you've answered.</summary>
-<p>From the provided bins, we can calculate the bin widths, and then multiply each bin's width by its height to find its area.
-The bin $[3, 7)$ has a width of $7-3=4$ and a height of $0.05$, so its area is $4*0.05 = 0.2$. Similarly, the bin $[7, 10)$ has an area of $3*0.1 = 0.3$ and the bin $[10, 12)$ has an area of $2*0.15 = 0.3$.</p>
-<p>Adding these up, the total area of the first three bins is $0.2+0.3+0.3=0.8$, and since the total area of all bins in a histogram is always $1$, the fourth bin must have an area of $0.2$. This bin has a width of $4$, so its height must be $0.05$ to make its area $0.2$.</p>
-</details>
 </div>
 </div>
 </div>
@@ -9236,7 +9165,7 @@ with_len[with_len.get('shared') &gt;= 2].sort_values('name_len', ascending=False
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="Summary,-next-time">Summary, next time<a class="anchor-link" href="#Summary,-next-time">¶</a></h2>
+<h2 id="Summary-and-Break">Summary and Break<a class="anchor-link" href="#Summary-and-Break">¶</a></h2>
 </div>
 </div>
 </div>
@@ -9261,7 +9190,17 @@ with_len[with_len.get('shared') &gt;= 2].sort_values('name_len', ascending=False
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Next-time">Next time<a class="anchor-link" href="#Next-time">¶</a></h3><p>More advanced DataFrame manipulations!</p>
+<h3 id="After-the-Break">After the Break<a class="anchor-link" href="#After-the-Break">¶</a></h3><p>More advanced DataFrame manipulations!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>

@@ -15,7 +15,13 @@ nav_order: 1
 
 
 {: .success }
->Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist.
+> If you were unable to complete Lab 0 and 1, visit the syllabus to see our course policy on "slip days".
+>
+> Due to uncertainty regarding the proctoring service, Quiz 1 has been delayed and will be take-home. 
+
+<!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
+
+
 
 
 <!-- {: .warning }

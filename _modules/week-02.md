@@ -7,8 +7,8 @@ days:
       - name: LEC 7
         type: lecture
         title: Distributions and Histograms
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec07/lec07-live.ipynb
+        html: resources/lectures/lec07/lec07.html
         podcast:
         readings:
           - name: CIT 7.2-7.3
@@ -17,8 +17,8 @@ days:
       - name: LEC 8
         type: lecture
         title: Functions and Applying
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec08/lec08-live.ipynb
+        html: resources/lectures/lec08/lec08.html
         podcast:
         readings:
           - name: BPD 6
@@ -29,8 +29,8 @@ days:
       - name: LEC 9
         type: lecture
         title: Grouping on Multiple Columns, Merging
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec09/lec09-live.ipynb
+        html: resources/lectures/lec09/lec09.html
         podcast:
         readings:
           - name: BPD 11
@@ -42,9 +42,6 @@ days:
         type: disc
         title: Querying, Grouping, and Plotting
         url:
-      - name: QUIZ 1
-        type: quiz
-        title: Quiz 1 covers Lectures 1-6
   - date: 2026-7-7
     events:
       - name: LAB 2
@@ -99,6 +96,9 @@ days:
         url:
   - date: 2026-7-10
     events:
+      - name: QUIZ 1
+        type: quiz
+        title: Quiz 1 covers Lectures 1-6
       - name: HW 3
         type: hw
         title: DataFrames, Control Flow, and Probability
