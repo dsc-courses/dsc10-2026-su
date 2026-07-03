@@ -15,7 +15,7 @@ nav_order: 1
 
 
 {: .success }
-> If you were unable to complete Lab 0 and 1, visit the syllabus to see our course policy on "slip days".
+> If you were unable to complete Lab 0 or 1, visit the syllabus to see our course policy on "slip days". Homework 1 is due tonight.
 >
 > Due to uncertainty regarding the proctoring service, Quiz 1 has been delayed and will be take-home. 
 
