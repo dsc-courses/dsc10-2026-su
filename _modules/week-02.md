@@ -98,7 +98,7 @@ days:
     events:
       - name: QUIZ 1
         type: quiz
-        title: Quiz 1 covers Lectures 1-6
+        title: Quiz 1 covers Lectures 1-9
       - name: HW 3
         type: hw
         title: DataFrames, Control Flow, and Probability
