@@ -86,6 +86,7 @@ days:
         type: disc
         title: Arrays and DataFrames
         url: https://practice.dsc10.com/disc02/index.html
+        podcast: https://ucsd.zoom.us/rec/share/bvD9euGVVZbk-pBCFl08XY0AUOgG6l7TuiOMLH5SWxF3J8iy0BzeOAUPmshT2q3H.oB-JXgJr5zNZyDYc
   - date: 2026-7-2
     events:
       - name: LAB 0

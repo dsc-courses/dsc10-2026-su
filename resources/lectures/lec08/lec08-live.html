@@ -8456,7 +8456,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="DSC-10-student-data">DSC 10 student data<a class="anchor-link" href="#DSC-10-student-data">¶</a></h3><p>The DataFrame <code>roster</code> contains the names and lecture sections of all students enrolled in DSC 10 this quarter. The first names are real, while the last names have been anonymized for privacy.</p>
+<h3 id="DSC-10-student-data">DSC 10 student data<a class="anchor-link" href="#DSC-10-student-data">¶</a></h3><p>The DataFrame <code>roster</code> contains the names and colleges of all students enrolled in DSC 10 this term. The first names are real, while the last names have been anonymized for privacy.</p>
 </div>
 </div>
 </div>
@@ -8885,7 +8885,7 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">name_counts</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">name_counts</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8910,8 +8910,7 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># What is the max of an individual string?</span>
-<span class="n">name_counts</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">name_counts</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="nb">len</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8924,10 +8923,10 @@ shared_names.get('name').sum() / roster.shape[0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Example:-Shared-first-names-and-sections">Example: Shared first names and sections<a class="anchor-link" href="#Example:-Shared-first-names-and-sections">¶</a></h3><ul>
+<h3 id="Example:-Shared-first-names-and-colleges">Example: Shared first names and colleges<a class="anchor-link" href="#Example:-Shared-first-names-and-colleges">¶</a></h3><ul>
 <li>Suppose you're one of the students who has a first name that is shared with at least one other student.</li>
-<li>Let's try and determine whether someone <strong>in your lecture section</strong> shares the same first name as you.<ul>
-<li>For example, maybe <code>'Aiden Pvtkkz'</code> wants to see if there's another <code>'Aiden'</code> in their section.</li>
+<li>Let's try and determine whether someone <strong>in your college</strong> shares the same first name as you.<ul>
+<li>For example, maybe <code>'Adrian Nchqxj'</code> wants to see if there's another <code>'Adian'</code> in their college.</li>
 </ul>
 </li>
 </ul>
@@ -8943,8 +8942,8 @@ shared_names.get('name').sum() / roster.shape[0]
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>Strategy:</p>
 <ol>
-<li>Which section is <code>'Aiden Pvtkkz'</code> in?</li>
-<li>How many people in that section have a first name of <code>'Aiden'</code>?</li>
+<li>Which college is <code>'Adrian Nchqxj'</code> in?</li>
+<li>How many people in that college have a first name of <code>'Adrian'</code>?</li>
 </ol>
 </div>
 </div>
@@ -8971,8 +8970,8 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">which_section</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Aiden Pvtkkz'</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'section'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">which_section</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">which_college</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Adrian Nchqxj'</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'college'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">which_college</span>
 </pre></div>
 </div>
 </div>
@@ -8986,9 +8985,9 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">first_cond</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Aiden'</span> <span class="c1"># A Boolean Series!</span>
-<span class="n">section_cond</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'section'</span><span class="p">)</span> <span class="o">==</span> <span class="n">which_section</span> <span class="c1"># A Boolean Series!</span>
-<span class="n">how_many</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[</span><span class="n">first_cond</span> <span class="o">&amp;</span> <span class="n">section_cond</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">first_cond</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span> <span class="o">==</span> <span class="s1">'Adrian'</span> <span class="c1"># A Boolean Series!</span>
+<span class="n">college_cond</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'college'</span><span class="p">)</span> <span class="o">==</span> <span class="n">which_college</span> <span class="c1"># A Boolean Series!</span>
+<span class="n">how_many</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[</span><span class="n">first_cond</span> <span class="o">&amp;</span> <span class="n">college_cond</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">how_many</span>
 </pre></div>
 </div>
@@ -9002,7 +9001,7 @@ shared_names.get('name').sum() / roster.shape[0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Another-function:-shared_first_and_section">Another function: <code>shared_first_and_section</code><a class="anchor-link" href="#Another-function:-shared_first_and_section">¶</a></h3><p>Let's create a function named <code>shared_first_and_section</code>. It will take in the <strong>full name</strong> of a student and return <strong>the number</strong> of students in their section with the same first name and section (including them).</p>
+<h3 id="Another-function:-shared_first_and_college">Another function: <code>shared_first_and_college</code><a class="anchor-link" href="#Another-function:-shared_first_and_college">¶</a></h3><p>Let's create a function named <code>shared_first_and_college</code>. It will take in the <strong>full name</strong> of a student and return <strong>the number</strong> of students in their college with the same first name and college (including them).</p>
 <p><em>Note</em>: This is the first function we're writing that involves using a DataFrame within the function – this is fine!</p>
 </div>
 </div>
@@ -9015,17 +9014,17 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">shared_first_and_section</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">shared_first_and_college</span><span class="p">(</span><span class="n">name</span><span class="p">):</span>
     <span class="c1"># First, find the row corresponding to that full name in roster.</span>
     <span class="c1"># We're assuming that full names are unique.</span>
     <span class="n">row</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span> <span class="o">==</span> <span class="n">name</span><span class="p">]</span>
     
-    <span class="c1"># Then, get that student's first name and section.</span>
+    <span class="c1"># Then, get that student's first name and college.</span>
     <span class="n">first</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-    <span class="n">section</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'section'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">college</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'college'</span><span class="p">)</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
     
-    <span class="c1"># Now, find all the students with the same first name and section.</span>
-    <span class="n">shared_info</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[(</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span> <span class="o">==</span> <span class="n">first</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'section'</span><span class="p">)</span> <span class="o">==</span> <span class="n">section</span><span class="p">)]</span>
+    <span class="c1"># Now, find all the students with the same first name and college.</span>
+    <span class="n">shared_info</span> <span class="o">=</span> <span class="n">roster</span><span class="p">[(</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'first'</span><span class="p">)</span> <span class="o">==</span> <span class="n">first</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'college'</span><span class="p">)</span> <span class="o">==</span> <span class="n">college</span><span class="p">)]</span>
     
     <span class="c1"># Return the number of such students.</span>
     <span class="k">return</span> <span class="n">shared_info</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
@@ -9042,7 +9041,7 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">shared_first_and_section</span><span class="p">(</span><span class="s1">'Aiden Pvtkkz'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">shared_first_and_college</span><span class="p">(</span><span class="s1">'Adrian Nchqxj'</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -9055,7 +9054,7 @@ shared_names.get('name').sum() / roster.shape[0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Now, let's add a column to <code>roster</code> that contains the values returned by <code>shared_first_and_section</code>.</p>
+<p>Now, let's add a column to <code>roster</code> that contains the values returned by <code>shared_first_and_college</code>.</p>
 </div>
 </div>
 </div>
@@ -9067,7 +9066,7 @@ shared_names.get('name').sum() / roster.shape[0]
 <div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">roster</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">shared</span><span class="o">=</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">shared_first_and_section</span><span class="p">))</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">roster</span> <span class="o">=</span> <span class="n">roster</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">shared</span><span class="o">=</span><span class="n">roster</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'name'</span><span class="p">)</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">shared_first_and_college</span><span class="p">))</span>
 <span class="n">roster</span>
 </pre></div>
 </div>
@@ -9081,7 +9080,7 @@ shared_names.get('name').sum() / roster.shape[0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Let's find all of the students who are in a section with someone that has the same first name as them.</p>
+<p>Let's find all of the students who are in a college with someone that has the same first name as them.</p>
 </div>
 </div>
 </div>
@@ -9129,7 +9128,7 @@ shared_names.get('name').sum() / roster.shape[0]
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Activity">Activity<a class="anchor-link" href="#Activity">¶</a></h3><p>Find the longest first name in the class that is shared by at least two students in the same section.</p>
+<h3 id="Activity">Activity<a class="anchor-link" href="#Activity">¶</a></h3><p>Find the longest first name in the class that is shared by at least two students in the same college.</p>
 <p><em>Hint</em>: You'll have to use both <code>.assign</code> and <code>.apply</code>.</p>
 <br/>
 <details>
@@ -9191,16 +9190,6 @@ with_len[with_len.get('shared') &gt;= 2].sort_values('name_len', ascending=False
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="After-the-Break">After the Break<a class="anchor-link" href="#After-the-Break">¶</a></h3><p>More advanced DataFrame manipulations!</p>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>

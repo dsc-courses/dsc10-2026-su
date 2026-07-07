@@ -9,7 +9,7 @@ days:
         title: Distributions and Histograms
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec07/lec07-live.ipynb
         html: resources/lectures/lec07/lec07.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e
         readings:
           - name: CIT 7.2-7.3
             url: https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html
@@ -19,7 +19,7 @@ days:
         title: Functions and Applying
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec08/lec08-live.ipynb
         html: resources/lectures/lec08/lec08.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e
         readings:
           - name: BPD 6
             url: https://notes.dsc10.com/01-getting_started/functions-defining.html#example
@@ -31,7 +31,7 @@ days:
         title: Grouping on Multiple Columns, Merging
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec09/lec09-live.ipynb
         html: resources/lectures/lec09/lec09.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e 
         readings:
           - name: BPD 11
             url: https://notes.dsc10.com/02-data_sets/groupby.html
@@ -41,7 +41,7 @@ days:
       - name: DISC 3
         type: disc
         title: Querying, Grouping, and Plotting
-        url:
+        url: https://practice.dsc10.com/disc03/index.html
   - date: 2026-7-7
     events:
       - name: LAB 2
