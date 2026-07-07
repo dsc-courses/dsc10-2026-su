@@ -121,7 +121,14 @@
           ></small
         >
         {%- endif -%} {%- endif -%} {%- if event.type == "hw" or event.type ==
-        "disc" -%} {%- if event.problems -%} &nbsp;&nbsp;
+        "disc" -%} {%- if event.podcast -%}
+        <small>
+          &nbsp;&nbsp;
+          <a href="{{ event.podcast }}">
+            <button type="button" class="btn btn-info">🎥 watch</button>
+          </a>
+        </small>
+        {%- endif -%} {%- if event.problems -%} &nbsp;&nbsp;
         <small>
           <a href="{{ event.problems }}">
             <button type="button" class="btn btn-info">📄 problems</button>
