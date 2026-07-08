@@ -53,8 +53,8 @@ days:
       - name: LEC 10
         type: lecture
         title: Conditional Statements and Iteration
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec10/lec10-live.ipynb
+        html: resources/lectures/lec10/lec10.html
         podcast:
         readings:
           - name: CIT 9.0-9.2
@@ -63,8 +63,9 @@ days:
       - name: LEC 11
         type: lecture
         title: Probability
-        url:
-        html:
+        url: 
+        blanks: resources/lectures/lec11/lec11_slides.pdf
+        html: 
         podcast:
         readings:
           - name: CIT 9.5
@@ -73,8 +74,8 @@ days:
       - name: LEC 12
         type: lecture
         title: Simulation
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec12/lec12-live.ipynb
+        html: resources/lectures/lec12/lec12.html
         podcast:
         readings:
           - name: CIT 9.3-9.4
