@@ -64,7 +64,7 @@ days:
         type: lecture
         title: Probability
         url: 
-        blanks: resources/lectures/lec11/lec11_slides.pdf
+        blank: resources/lectures/lec11/lec11_slides.pdf
         html: 
         podcast:
         readings:
