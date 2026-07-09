@@ -42,6 +42,7 @@ days:
         type: disc
         title: Querying, Grouping, and Plotting
         url: https://practice.dsc10.com/disc03/index.html
+        podcast: https://youtu.be/RqtWpSHGOZY
   - date: 2026-7-7
     events:
       - name: LAB 2
@@ -55,7 +56,7 @@ days:
         title: Conditional Statements and Iteration
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec10/lec10-live.ipynb
         html: resources/lectures/lec10/lec10.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
         readings:
           - name: CIT 9.0-9.2
             url: https://inferentialthinking.com/chapters/09/Randomness.html
@@ -65,8 +66,8 @@ days:
         title: Probability
         url: 
         blank: resources/lectures/lec11/lec11_slides.pdf
-        html: 
-        podcast:
+        html: resources/lectures/lec11/lec11_filled.pdf
+        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
         readings:
           - name: CIT 9.5
             url: https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html
@@ -76,7 +77,7 @@ days:
         title: Simulation
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec12/lec12-live.ipynb
         html: resources/lectures/lec12/lec12.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
         readings:
           - name: CIT 9.3-9.4
             url: https://inferentialthinking.com/chapters/09/3/Simulation.html
@@ -85,6 +86,7 @@ days:
         type: disc
         title: Functions, DataFrames, and Control Flow
         url: https://practice.dsc10.com/disc04/index.html
+        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783544472000
       - name: HW 2
         type: hw
         title: DataFrames, Data Visualization, and Functions
