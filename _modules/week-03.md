@@ -36,6 +36,7 @@ days:
       - name: EXAM
         type: exam
         title: <b>Midterm Exam covers Lectures 1-12</b>
+        guide: resources/midterm_guide.pdf
   - date: 2026-7-17
     events:
       - name: LAB 4

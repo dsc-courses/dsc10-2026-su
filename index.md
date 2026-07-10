@@ -15,7 +15,7 @@ nav_order: 1
 
 
 {: .success }
-> Due to uncertainty regarding the proctoring service, Quiz 1 has been delayed and will be take-home. 
+> Quiz 1 has been released! Check out Campuswire for more instructions. Additionally, take some time to read the Exam Guidelines linked under the Week 3 module.
 
 <!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
 

@@ -167,7 +167,14 @@
             <button type="button" class="btn btn-info">zoom</button>
           </a>
         </small>
-        {%- endif -%} {%- endif -%}
+        {%- endif -%} {%- endif -%} {%- if event.guide -%}
+        <small>
+          &nbsp;&nbsp;
+          <a href="{{ event.guide }}">
+            <button type="button" class="btn btn-info">📋 guide</button>
+          </a>
+        </small>
+        {%- endif -%}
       </p>
       <p>
         <!--
