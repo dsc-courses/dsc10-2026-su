@@ -7,8 +7,8 @@ days:
       - name: LEC 13
         type: lecture
         title: Distributions and Sampling
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec13/lec13-live.ipynb
+        html: resources/lectures/lec13/lec13.html
         podcast:
         readings:
           - name: CIT 10.0-10.4
@@ -17,8 +17,8 @@ days:
       - name: LEC 14
         type: lecture
         title: Bootstrapping and Confidence Intervals
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec14/lec14-live.ipynb
+        html: resources/lectures/lec14/lec14.html
         podcast:
         readings:
           - name: CIT 13.0-13.2
@@ -30,7 +30,7 @@ days:
       - name: DISC 5
         type: disc
         title: Probability and Simulation
-        url:
+        url: 
   - date: 2026-7-15
     events:
       - name: EXAM

@@ -15,9 +15,9 @@ nav_order: 1
 
 
 {: .success }
-> Quiz 1 has been released! Check out Campuswire for more instructions. 
+> The Midterm Exam will be on Wednesday, July 15th at 11 AM. Read the Exam Guidelines linked under the Week 3 module.
 >
->Additionally, take some time to read the Exam Guidelines linked under the Week 3 module.
+> The Midterm Project has been posted, it will be due on Monday July, 20th.
 
 <!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
 
