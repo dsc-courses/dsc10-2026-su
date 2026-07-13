@@ -30,7 +30,7 @@ days:
       - name: DISC 5
         type: disc
         title: Probability and Simulation
-        url: 
+        url: https://practice.dsc10.com/disc05/index.html
   - date: 2026-7-15
     events:
       - name: EXAM
