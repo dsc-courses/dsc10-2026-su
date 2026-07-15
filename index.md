@@ -15,7 +15,7 @@ nav_order: 1
 
 
 {: .success }
-> The Midterm Exam will be on Wednesday, July 15th at 11 AM. Read the Exam Guidelines linked under the Week 3 module.
+> The Midterm Exam is today. Please see Campuswire for the Zoom link and other information. Read the Exam Guidelines linked under the Week 3 module. Best of luck!
 >
 > The Midterm Project has been posted, it will be due on Monday July, 20th.
 
