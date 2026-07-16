@@ -15,9 +15,9 @@ nav_order: 1
 
 
 {: .success }
-> The Midterm Exam is today. Please see Campuswire for the Zoom link and other information. Read the Exam Guidelines linked under the Week 3 module. Best of luck!
+> Deadlines for the Midterm Project and HW 4 are fast approaching! Visit office hours for help.
 >
-> The Midterm Project has been posted, it will be due on Monday July, 20th.
+> Lecture will be asynchronous next week, videos will be posted directly to the website before lecture time. Discussion will still meet synchronously.
 
 <!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
 
