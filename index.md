@@ -15,7 +15,7 @@ nav_order: 1
 
 
 {: .success }
-> Deadlines for the Midterm Project and HW 4 are fast approaching! Visit office hours for help.
+> Nice work on the Midterm Exam! Deadlines for the Midterm Project and HW 4 are fast approaching. Visit office hours for help.
 >
 > Lecture will be asynchronous during Week 4, videos will be posted directly to the website before lecture time. Discussion will still meet synchronously.
 
