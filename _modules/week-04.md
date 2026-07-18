@@ -9,7 +9,7 @@ days:
         title: Confidence Intervals, Center, and Spread
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec15/lec15-live.ipynb
         html: resources/lectures/lec15/lec15.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/cDl7VNij8HZiYLsiNDsZHYzrqmmYUGxJ_a2zhCc16CyJVF9uK0y5mE2NJVBQpV9q.2RydIyD3KtpirH8f?startTime=1784318737000
         readings:
           - name: CIT 13.3-13.4
             url: https://inferentialthinking.com/chapters/13/3/Confidence_Intervals.html
@@ -19,7 +19,7 @@ days:
         title: Standardization and the Normal Distribution
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec16/lec16-live.ipynb
         html: resources/lectures/lec16/lec16.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/cDl7VNij8HZiYLsiNDsZHYzrqmmYUGxJ_a2zhCc16CyJVF9uK0y5mE2NJVBQpV9q.2RydIyD3KtpirH8f?startTime=1784324287000
         readings:
           - name: CIT 14.2-14.3
             url: https://inferentialthinking.com/chapters/14/2/Variability.html
@@ -29,8 +29,8 @@ days:
         title: The Central Limit Theorem
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec17/lec17-live.ipynb
         html: resources/lectures/lec17/lec17.html
-        podcast:
-        readings:
+        podcast: https://ucsd.zoom.us/rec/share/H3p6NW22_Ytny4vx9DS4termN4X3C7z2FgRJV2eL2LvyD5chSztZOjHWb4M9X6An.hkJCB4BsjqMhS8mD?startTime=1784330460000
+        readings: 
           - name: CIT 14.4-14.5
             url: https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html
         keywords: distribution of the sample mean, square root law, CLT-based CIs
