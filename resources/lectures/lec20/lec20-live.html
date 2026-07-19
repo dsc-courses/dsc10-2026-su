@@ -7532,7 +7532,7 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h1 id="Lecture-20-%E2%80%93-Hypothesis-Testing-and-Total-Variation-Distance">Lecture 20 – Hypothesis Testing and Total Variation Distance<a class="anchor-link" href="#Lecture-20-%E2%80%93-Hypothesis-Testing-and-Total-Variation-Distance">¶</a></h1><h2 id="DSC-10,-Spring-2026">DSC 10, Spring 2026<a class="anchor-link" href="#DSC-10,-Spring-2026">¶</a></h2>
+<h1 id="Lecture-20-%E2%80%93-Hypothesis-Testing-and-Total-Variation-Distance">Lecture 20 – Hypothesis Testing and Total Variation Distance<a class="anchor-link" href="#Lecture-20-%E2%80%93-Hypothesis-Testing-and-Total-Variation-Distance">¶</a></h1><h2 id="DSC-10,-Summer-2026">DSC 10, Summer 2026<a class="anchor-link" href="#DSC-10,-Summer-2026">¶</a></h2>
 </div>
 </div>
 </div>
@@ -8900,7 +8900,7 @@ a.anchor-link {
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">bpd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">RandomSampleAverage</span><span class="o">=</span><span class="n">averages</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'hist'</span><span class="p">,</span> <span class="n">bins</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> 
                                                           <span class="n">density</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s1">'w'</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> 
                                                           <span class="n">title</span><span class="o">=</span><span class="s1">'Empirical Distribution of Midterm Averages for 108 Randomly Selected Students'</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">observed_avg</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'black'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'observed statistic'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axvline</span><span class="p">(</span><span class="n">observed_avg</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">'pink'</span><span class="p">,</span> <span class="n">linewidth</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">'observed statistic'</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">();</span>
 </pre></div>
 </div>
@@ -8964,11 +8964,12 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h3 id="Jury-panels">Jury panels<a class="anchor-link" href="#Jury-panels">¶</a></h3><p>Recall the jury panel selection process:</p>
-<center>$\substack{\text{eligible} \\ \text{population}}
+<!-- <center>$\substack{\text{eligible} \\ \text{population}}
 \xrightarrow{\substack{\text{representative} \\ \text{sample}}} 
 \substack{\text{jury} \\ \text{panel}}
 \xrightarrow{\substack{\text{selection by} \\ \text{judge/attorneys}}} 
-\substack{\text{actual} \\ \text{jury}}$</center>
+\substack{\text{actual} \\ \text{jury}}$</center> -->
+<center> <img alt="No description has been provided for this image" src="images/panel.png" width="370"/> </center>
 </div>
 </div>
 </div>
@@ -9334,7 +9335,7 @@ a.anchor-link {
 
 <span class="n">jury</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="s1">'barh'</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="s1">'Ethnicity'</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="s1">'If you add up the total amount by which the green bars</span><span class="se">\n</span><span class="s1"> are longer than the blue bars, you get 0.14.'</span><span class="p">,</span> <span class="p">(</span><span class="mf">0.08</span><span class="p">,</span> <span class="mf">3.9</span><span class="p">),</span> <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">boxstyle</span><span class="o">=</span><span class="s2">"larrow,pad=0.3"</span><span class="p">,</span> <span class="n">fc</span><span class="o">=</span><span class="s1">'white'</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s2">"black"</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">));</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="s1">'If you add up the total amount by which the blue bars</span><span class="se">\n</span><span class="s1"> are longer than the red bars, you also get 0.14!'</span><span class="p">,</span> <span class="p">(</span><span class="mf">0.23</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">),</span> <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">boxstyle</span><span class="o">=</span><span class="s2">"larrow,pad=0.3"</span><span class="p">,</span> <span class="n">fc</span><span class="o">=</span><span class="s1">'white'</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s2">"black"</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">));</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="s1">'If you add up the total amount by which the blue bars</span><span class="se">\n</span><span class="s1"> are longer than the green bars, you also get 0.14!'</span><span class="p">,</span> <span class="p">(</span><span class="mf">0.23</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">),</span> <span class="n">bbox</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span><span class="n">boxstyle</span><span class="o">=</span><span class="s2">"larrow,pad=0.3"</span><span class="p">,</span> <span class="n">fc</span><span class="o">=</span><span class="s1">'white'</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s2">"black"</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">2</span><span class="p">));</span>
 </pre></div>
 </div>
 </div>

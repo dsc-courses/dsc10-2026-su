@@ -53,8 +53,8 @@ days:
       - name: LEC 18
         type: lecture
         title: Choosing Sample Sizes, Statistical Models
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec18/lec18-live.ipynb
+        html: resources/lectures/lec18/lec18.html
         podcast:
         readings:
           - name: CIT 14.6
@@ -65,8 +65,8 @@ days:
       - name: LEC 19
         type: lecture
         title: Hypothesis Testing
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec19/lec19-live.ipynb
+        html: resources/lectures/lec19/lec19.html
         podcast:
         readings:
           - name: CIT 11.3
@@ -75,8 +75,8 @@ days:
       - name: LEC 20
         type: lecture
         title: Hypothesis Testing and Total Variation Distance
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec20/lec20-live.ipynb
+        html: resources/lectures/lec20/lec20.html
         podcast:
         readings:
           - name: CIT 11.2
