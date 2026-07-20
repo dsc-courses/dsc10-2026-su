@@ -93,11 +93,11 @@ days:
       - name: LAB 5
         type: lab
         title: Variability and the Normal Distribution
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=labs/lab5/lab5.ipynb
   - date: 2026-7-24
     events:
       - name: HW 5
         type: hw
         title: The Normal Distribution and the Central Limit Theorem
-        url:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=homeworks/hw5/hw5.ipynb
 ---
