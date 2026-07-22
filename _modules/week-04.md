@@ -77,7 +77,7 @@ days:
         title: Hypothesis Testing and Total Variation Distance
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec20/lec20-live.ipynb
         html: resources/lectures/lec20/lec20.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/uSvQoUqEXo2gJDAIvKbSHRxnbHRIqg-RVerw0whMiwANPsiHtmV7BgZU7-Mtp4Y.vQTVQwFTtoZKS1X_
         readings:
           - name: CIT 11.2
             url: https://inferentialthinking.com/chapters/11/2/Multiple_Categories.html
