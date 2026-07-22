@@ -15,9 +15,10 @@ nav_order: 1
 
 
 {: .success }
-> Nice work on the Midterm Exam! Deadlines for the Midterm Project and HW 4 are fast approaching. Visit office hours for help.
+> Lecture 18 and 19 have been posted. Lecture 20 will be posted later today. 
 >
-> Lecture will be asynchronous during Week 4, videos will be posted directly to the website before lecture time. Discussion will still meet synchronously.
+> Discussion will meet still meet synchronously today.
+
 
 <!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
 

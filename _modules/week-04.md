@@ -55,7 +55,7 @@ days:
         title: Choosing Sample Sizes, Statistical Models
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec18/lec18-live.ipynb
         html: resources/lectures/lec18/lec18.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/CqDHfBVOvYqKpoRzY0MpgZedtBma7gUoHsGTwMXtfPEpBzswyZsePl01QcwF3IpM.__23wLpuXLoxstEe
         readings:
           - name: CIT 14.6
             url: https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html
@@ -67,7 +67,7 @@ days:
         title: Hypothesis Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec19/lec19-live.ipynb
         html: resources/lectures/lec19/lec19.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/lZhLG_h-35NN6A_8PZRjjQxfglf5aBYuQY9TZaY8rj3WL__RIUp7cFsgH2Z8azoo.QeOs-eEGn9AKn-3H
         readings:
           - name: CIT 11.3
             url: https://inferentialthinking.com/chapters/11/3/Decisions_and_Uncertainty.html
