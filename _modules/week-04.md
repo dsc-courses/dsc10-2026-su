@@ -87,7 +87,7 @@ days:
       - name: DISC 7
         type: disc
         title: The Normal Distribution and the CLT
-        url:
+        url: https://practice.dsc10.com/disc07/index.html
   - date: 2026-7-23
     events:
       - name: LAB 5
