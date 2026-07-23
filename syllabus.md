@@ -385,7 +385,7 @@ The quiz and exams are designed to test your understanding of course material, t
 This class has one Midterm Exam and one Final Exam:
 
 - Midterm Exam: Wednesday, July 15th, **during the lecture period**.
-- Final Exam: Friday, July 31st from 11:30AM to 3:30PM.
+- Final Exam: Friday, July 31st from 11:30AM to 2:30PM.
 
 Exams are cumulative, though the Final Exam will emphasize material after the Midterm Exam. Both exams will be held **virtually and synchronously**. You'll be allowed to use one 8.5 by 11 inch page of double-sided handwritten notes, but no calculators or other resources.
 
