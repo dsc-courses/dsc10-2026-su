@@ -88,6 +88,7 @@ days:
         type: disc
         title: The Normal Distribution and the CLT
         url: https://practice.dsc10.com/disc07/index.html
+        podcast: https://youtu.be/Mny4wup39J8
   - date: 2026-7-23
     events:
       - name: LAB 5
