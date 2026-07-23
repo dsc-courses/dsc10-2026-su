@@ -15,9 +15,9 @@ nav_order: 1
 
 
 {: .success }
-> Lecture 18 and 19 have been posted. Lecture 20 will be posted later today. 
+> Lecture will return to meeting synchronously during Week 5.
 >
-> Discussion will meet still meet synchronously today.
+> The Final Exam will be held on **Friday, July 31st** from **11:30AM-2:30PM**.
 
 
 <!-- Welcome to DSC 10! Make sure to read this website thoroughly and complete the items in the [Getting Started](https://dsc10.com/syllabus/#-getting-started) checklist. -->
