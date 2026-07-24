@@ -38,6 +38,7 @@ days:
         type: disc
         title: Sampling, Bootstrapping, and Confidence Intervals
         url: https://practice.dsc10.com/disc06/index.html
+        podcast: https://youtu.be/GVxFpXFZb_8
       - name: PROJ
         type: proj
         title: Midterm Project
