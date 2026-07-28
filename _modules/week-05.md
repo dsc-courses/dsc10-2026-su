@@ -9,7 +9,7 @@ days:
         title: TVD, Hypothesis Testing, and Permutation Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec21/lec21-live.ipynb
         html: resources/lectures/lec21/lec21.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
         readings:
           - name: CIT 12.0-12.1
             url: https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html
@@ -19,7 +19,7 @@ days:
         title: Permutation Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec22/lec22-live.ipynb
         html: resources/lectures/lec22/lec22.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
         readings:
           - name: CIT 12.3
             url: https://inferentialthinking.com/chapters/12/3/Deflategate.html
@@ -29,7 +29,7 @@ days:
         title: Correlation
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec23/lec23-live.ipynb
         html: resources/lectures/lec23/lec23.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
         readings:
           - name: CIT 15.0-15.2
             url: https://inferentialthinking.com/chapters/15/Prediction.html
