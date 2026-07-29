@@ -73,6 +73,7 @@ days:
         type: disc
         title: TVD and Permutation Testing
         url: https://practice.dsc10.com/disc09/index.html
+        podcast: https://ucsd.zoom.us/rec/share/jqAvs8ZUwvPD48o9a4VGBQjvdYy85KMHzMjZ5z7CTMdSczyHJR8c9UN4PpzQRJA.AU-5Zuxf9nB5aOWQ?startTime=1785359036000
       - name: DISC 10
         type: disc
         title: Regression
