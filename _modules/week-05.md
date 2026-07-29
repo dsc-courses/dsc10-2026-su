@@ -73,6 +73,10 @@ days:
         type: disc
         title: TVD and Permutation Testing
         url: https://practice.dsc10.com/disc09/index.html
+      - name: DISC 10
+        type: disc
+        title: Regression
+        url: https://practice.dsc10.com/disc10/index.html
       - name: HW 6
         type: hw
         title: Hypothesis Testing and Permutation Testing
