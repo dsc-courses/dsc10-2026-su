@@ -37,7 +37,7 @@ days:
       - name: DISC 8
         type: disc
         title: Hypothesis Testing and Permutation Testing
-        url:
+        url: https://practice.dsc10.com/disc08/index.html
   - date: 2026-7-28
     events:
       - name: LAB 6
@@ -71,8 +71,8 @@ days:
         title: Review
       - name: DISC 9
         type: disc
-        title: Regression
-        url:
+        title: TVD and Permutation Testing
+        url: https://practice.dsc10.com/disc09/index.html
       - name: HW 6
         type: hw
         title: Hypothesis Testing and Permutation Testing
