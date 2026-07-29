@@ -49,8 +49,8 @@ days:
       - name: LEC 24
         type: lecture
         title: Regression and Least Squares
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec24/lec24-live.ipynb
+        html: resources/lectures/lec24/lec24.html
         podcast:
         readings:
           - name: CIT 15.2-15.4
@@ -59,8 +59,8 @@ days:
       - name: LEC 25
         type: lecture
         title: Residuals and Inference
-        url:
-        html:
+        url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec25/lec25-live.ipynb
+        html: resources/lectures/lec25/lec25.html
         podcast:
         readings:
           - name: CIT 15.5-16.3
