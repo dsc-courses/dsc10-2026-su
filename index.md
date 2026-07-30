@@ -15,8 +15,7 @@ nav_order: 1
 
 
 {: .success }
-> Lecture will return to meeting synchronously during Week 5.
->
+
 > The Final Exam will be held on **Friday, July 31st** from **11:30AM-2:30PM**. 
 >
 > The proctoring setup for the Final will be different from that of the Midterm! Review the Exam Guidelines linked under the Week 5 Module.

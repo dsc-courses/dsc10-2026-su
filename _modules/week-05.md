@@ -51,7 +51,7 @@ days:
         title: Regression and Least Squares
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec24/lec24-live.ipynb
         html: resources/lectures/lec24/lec24.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
         readings:
           - name: CIT 15.2-15.4
             url: https://inferentialthinking.com/chapters/15/2/Regression_Line.html
@@ -61,7 +61,7 @@ days:
         title: Residuals and Inference
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec25/lec25-live.ipynb
         html: resources/lectures/lec25/lec25.html
-        podcast:
+        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
         readings:
           - name: CIT 15.5-16.3
             url: https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html
