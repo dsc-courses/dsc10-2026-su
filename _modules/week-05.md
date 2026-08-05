@@ -69,6 +69,7 @@ days:
       - name: REV
         type: lecture
         title: Review
+        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
       - name: DISC 9
         type: disc
         title: TVD and Permutation Testing
@@ -78,6 +79,7 @@ days:
         type: disc
         title: Regression
         url: https://practice.dsc10.com/disc10/index.html
+        podcast: https://ucsd.zoom.us/rec/share/jqAvs8ZUwvPD48o9a4VGBQjvdYy85KMHzMjZ5z7CTMdSczyHJR8c9UN4PpzQRJA.AU-5Zuxf9nB5aOWQ?startTime=1785359036000
       - name: HW 6
         type: hw
         title: Hypothesis Testing and Permutation Testing
