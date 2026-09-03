@@ -9,7 +9,7 @@ days:
         title: Distributions and Histograms
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec07/lec07-live.ipynb
         html: resources/lectures/lec07/lec07.html
-        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+7-9/1_y5juuqzy
         readings:
           - name: CIT 7.2-7.3
             url: https://inferentialthinking.com/chapters/07/2/Visualizing_Numerical_Distributions.html
@@ -19,7 +19,7 @@ days:
         title: Functions and Applying
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec08/lec08-live.ipynb
         html: resources/lectures/lec08/lec08.html
-        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+7-9/1_y5juuqzy
         readings:
           - name: BPD 6
             url: https://notes.dsc10.com/01-getting_started/functions-defining.html#example
@@ -31,7 +31,7 @@ days:
         title: Grouping on Multiple Columns, Merging
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec09/lec09-live.ipynb
         html: resources/lectures/lec09/lec09.html
-        podcast: https://ucsd.zoom.us/rec/share/-f0QG5iFhYQHrsOPGhwRx_2PBBi--fKEYjoeZS8NXH8WKEL_75X2yOqIE-8DQg2E.F9Iwxt9XBI0svD_e 
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+7-9/1_y5juuqzy
         readings:
           - name: BPD 11
             url: https://notes.dsc10.com/02-data_sets/groupby.html
@@ -56,7 +56,7 @@ days:
         title: Conditional Statements and Iteration
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec10/lec10-live.ipynb
         html: resources/lectures/lec10/lec10.html
-        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+10-12/1_bvc866gt
         readings:
           - name: CIT 9.0-9.2
             url: https://inferentialthinking.com/chapters/09/Randomness.html
@@ -67,7 +67,7 @@ days:
         url: 
         blank: resources/lectures/lec11/lec11_slides.pdf
         html: resources/lectures/lec11/lec11_filled.pdf
-        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+10-12/1_bvc866gt
         readings:
           - name: CIT 9.5
             url: https://inferentialthinking.com/chapters/09/5/Finding_Probabilities.html
@@ -77,7 +77,7 @@ days:
         title: Simulation
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec12/lec12-live.ipynb
         html: resources/lectures/lec12/lec12.html
-        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783533585000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+10-12/1_bvc866gt
         readings:
           - name: CIT 9.3-9.4
             url: https://inferentialthinking.com/chapters/09/3/Simulation.html
@@ -86,7 +86,7 @@ days:
         type: disc
         title: Functions, DataFrames, and Control Flow
         url: https://practice.dsc10.com/disc04/index.html
-        podcast: https://ucsd.zoom.us/rec/share/y_mh2bvMqgOLm6dhM-7zeElKl-hGtiJxY-ntzRq2hgLfk2JQj44pfVdt89p9R6e_.G-_xpwTkHJBPYwPH?startTime=1783544472000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Discussion+4/1_fggypskq
       - name: HW 2
         type: hw
         title: DataFrames, Data Visualization, and Functions

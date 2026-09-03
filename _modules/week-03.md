@@ -9,7 +9,7 @@ days:
         title: Distributions and Sampling
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec13/lec13-live.ipynb
         html: resources/lectures/lec13/lec13.html
-        podcast: https://ucsd.zoom.us/rec/share/ceOY1JPZGc-PJVPXfhGWYS9lOSkWMrQ1-jSY6fI8Ap_LKpXsNlpfFTfB36pBqC9R.u-Ud_2YUCXUPtFn0?startTime=1783965733000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+13-14++Review/1_a3ays8ob
         readings:
           - name: CIT 10.0-10.4
             url: https://inferentialthinking.com/chapters/10/Sampling_and_Empirical_Distributions.html
@@ -19,7 +19,7 @@ days:
         title: Bootstrapping and Confidence Intervals
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec14/lec14-live.ipynb
         html: resources/lectures/lec14/lec14.html
-        podcast: https://ucsd.zoom.us/rec/share/ceOY1JPZGc-PJVPXfhGWYS9lOSkWMrQ1-jSY6fI8Ap_LKpXsNlpfFTfB36pBqC9R.u-Ud_2YUCXUPtFn0?startTime=1783965733000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+13-14++Review/1_a3ays8ob
         readings:
           - name: CIT 13.0-13.2
             url: https://inferentialthinking.com/chapters/13/Estimation.html
@@ -27,13 +27,13 @@ days:
       - name: REV
         type: lecture
         title: Review
-        podcast: https://ucsd.zoom.us/rec/share/ceOY1JPZGc-PJVPXfhGWYS9lOSkWMrQ1-jSY6fI8Ap_LKpXsNlpfFTfB36pBqC9R.u-Ud_2YUCXUPtFn0?startTime=1783965733000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+13-14++Review/1_a3ays8ob
         html: resources/midterm_review.pdf
       - name: DISC 5
         type: disc
         title: Probability and Simulation
         url: https://practice.dsc10.com/disc05/index.html
-        podcast: https://ucsd.zoom.us/rec/share/ceOY1JPZGc-PJVPXfhGWYS9lOSkWMrQ1-jSY6fI8Ap_LKpXsNlpfFTfB36pBqC9R.u-Ud_2YUCXUPtFn0?startTime=1783976504000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Discussion+5/1_lpyntlvi
   - date: 2026-7-15
     events:
       - name: EXAM

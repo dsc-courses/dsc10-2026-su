@@ -9,7 +9,7 @@ days:
         title: Confidence Intervals, Center, and Spread
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec15/lec15-live.ipynb
         html: resources/lectures/lec15/lec15.html
-        podcast: https://ucsd.zoom.us/rec/share/cDl7VNij8HZiYLsiNDsZHYzrqmmYUGxJ_a2zhCc16CyJVF9uK0y5mE2NJVBQpV9q.2RydIyD3KtpirH8f?startTime=1784318737000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+15/1_ycjeqqq1
         readings:
           - name: CIT 13.3-13.4
             url: https://inferentialthinking.com/chapters/13/3/Confidence_Intervals.html
@@ -19,7 +19,7 @@ days:
         title: Standardization and the Normal Distribution
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec16/lec16-live.ipynb
         html: resources/lectures/lec16/lec16.html
-        podcast: https://ucsd.zoom.us/rec/share/cDl7VNij8HZiYLsiNDsZHYzrqmmYUGxJ_a2zhCc16CyJVF9uK0y5mE2NJVBQpV9q.2RydIyD3KtpirH8f?startTime=1784324287000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+16/1_lt5j869r
         readings:
           - name: CIT 14.2-14.3
             url: https://inferentialthinking.com/chapters/14/2/Variability.html
@@ -29,7 +29,7 @@ days:
         title: The Central Limit Theorem
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec17/lec17-live.ipynb
         html: resources/lectures/lec17/lec17.html
-        podcast: https://ucsd.zoom.us/rec/share/H3p6NW22_Ytny4vx9DS4termN4X3C7z2FgRJV2eL2LvyD5chSztZOjHWb4M9X6An.hkJCB4BsjqMhS8mD?startTime=1784330460000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+17/1_30h2we2x
         readings: 
           - name: CIT 14.4-14.5
             url: https://inferentialthinking.com/chapters/14/4/Central_Limit_Theorem.html
@@ -56,7 +56,7 @@ days:
         title: Choosing Sample Sizes, Statistical Models
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec18/lec18-live.ipynb
         html: resources/lectures/lec18/lec18.html
-        podcast: https://ucsd.zoom.us/rec/share/CqDHfBVOvYqKpoRzY0MpgZedtBma7gUoHsGTwMXtfPEpBzswyZsePl01QcwF3IpM.__23wLpuXLoxstEe
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+18/1_nnflwmtx
         readings:
           - name: CIT 14.6
             url: https://inferentialthinking.com/chapters/14/6/Choosing_a_Sample_Size.html
@@ -68,7 +68,7 @@ days:
         title: Hypothesis Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec19/lec19-live.ipynb
         html: resources/lectures/lec19/lec19.html
-        podcast: https://ucsd.zoom.us/rec/share/lZhLG_h-35NN6A_8PZRjjQxfglf5aBYuQY9TZaY8rj3WL__RIUp7cFsgH2Z8azoo.QeOs-eEGn9AKn-3H
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+19/1_78ddal7d
         readings:
           - name: CIT 11.3
             url: https://inferentialthinking.com/chapters/11/3/Decisions_and_Uncertainty.html
@@ -78,7 +78,7 @@ days:
         title: Hypothesis Testing and Total Variation Distance
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec20/lec20-live.ipynb
         html: resources/lectures/lec20/lec20.html
-        podcast: https://ucsd.zoom.us/rec/share/uSvQoUqEXo2gJDAIvKbSHRxnbHRIqg-RVerw0whMiwANPsiHtmV7BgZU7-Mtp4Y.vQTVQwFTtoZKS1X_
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+20/1_ftelpt6y
         readings:
           - name: CIT 11.2
             url: https://inferentialthinking.com/chapters/11/2/Multiple_Categories.html

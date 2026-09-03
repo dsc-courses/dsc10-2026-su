@@ -9,7 +9,7 @@ days:
         title: TVD, Hypothesis Testing, and Permutation Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec21/lec21-live.ipynb
         html: resources/lectures/lec21/lec21.html
-        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+21-23/1_gsl0u654
         readings:
           - name: CIT 12.0-12.1
             url: https://inferentialthinking.com/chapters/12/Comparing_Two_Samples.html
@@ -19,7 +19,7 @@ days:
         title: Permutation Testing
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec22/lec22-live.ipynb
         html: resources/lectures/lec22/lec22.html
-        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+21-23/1_gsl0u654
         readings:
           - name: CIT 12.3
             url: https://inferentialthinking.com/chapters/12/3/Deflategate.html
@@ -29,7 +29,7 @@ days:
         title: Correlation
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec23/lec23-live.ipynb
         html: resources/lectures/lec23/lec23.html
-        podcast: https://ucsd.zoom.us/rec/share/1rsv62OHcdw9AkawdsO-kQd1wK2Mpf2iqKai1eY2BoXroH8WC69zgz_aSNgPWUV5.EgYE5v_vXf4NO6-1
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+21-23/1_gsl0u654
         readings:
           - name: CIT 15.0-15.2
             url: https://inferentialthinking.com/chapters/15/Prediction.html
@@ -51,7 +51,7 @@ days:
         title: Regression and Least Squares
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec24/lec24-live.ipynb
         html: resources/lectures/lec24/lec24.html
-        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+24-25++Review/1_nilalpyi
         readings:
           - name: CIT 15.2-15.4
             url: https://inferentialthinking.com/chapters/15/2/Regression_Line.html
@@ -61,7 +61,7 @@ days:
         title: Residuals and Inference
         url: http://datahub.ucsd.edu/user-redirect/git-sync?repo=https://github.com/dsc-courses/dsc10-2026-su&subPath=lectures/lec25/lec25-live.ipynb
         html: resources/lectures/lec25/lec25.html
-        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+24-25++Review/1_nilalpyi
         readings:
           - name: CIT 15.5-16.3
             url: https://inferentialthinking.com/chapters/15/5/Visual_Diagnostics.html
@@ -69,17 +69,17 @@ days:
       - name: REV
         type: lecture
         title: Review
-        podcast: https://ucsd.zoom.us/rec/share/0TZEXGrqSE2Z25YL_XZ9V5TiTD-0VQyK5KzikiwxrQse0YGaKfypnTCw3xbXk5U.cq4CFt2IjjOZ9Vf3?startTime=1785348094000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Lecture+24-25++Review/1_nilalpyi
       - name: DISC 9
         type: disc
         title: TVD and Permutation Testing
         url: https://practice.dsc10.com/disc09/index.html
-        podcast: https://ucsd.zoom.us/rec/share/jqAvs8ZUwvPD48o9a4VGBQjvdYy85KMHzMjZ5z7CTMdSczyHJR8c9UN4PpzQRJA.AU-5Zuxf9nB5aOWQ?startTime=1785359036000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Discussion+9-10/1_h9p6iuw9
       - name: DISC 10
         type: disc
         title: Regression
         url: https://practice.dsc10.com/disc10/index.html
-        podcast: https://ucsd.zoom.us/rec/share/jqAvs8ZUwvPD48o9a4VGBQjvdYy85KMHzMjZ5z7CTMdSczyHJR8c9UN4PpzQRJA.AU-5Zuxf9nB5aOWQ?startTime=1785359036000
+        podcast: https://mediaspace.ucsd.edu/media/DSC+10+Discussion+9-10/1_h9p6iuw9
       - name: HW 6
         type: hw
         title: Hypothesis Testing and Permutation Testing
